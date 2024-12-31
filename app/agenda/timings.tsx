@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import AnimateUp from "@/components/animate-up";
 import { timing } from "@/agenda";
 
