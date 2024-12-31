@@ -72,8 +72,8 @@ export default function SpeakerPage() {
   return (
     <Modal>
       <div className="flex flex-col gap-5 items-center justify-around p-5">
-        <div className="flex flex-col overflow-y-auto max-h-[calc(100vh-4rem)] md:p-6">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-12 md:text-left">
+        <div className="flex flex-col gap-3 overflow-y-auto max-h-[calc(100vh-4rem)] md:p-6">
+          <div className="flex flex-col md:flex-row text-center items-center justify-center gap-3 md:gap-12 md:text-left">
             <Image
               src={speakerDetails.photo}
               alt={speakerDetails.name}
