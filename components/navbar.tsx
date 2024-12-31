@@ -24,7 +24,7 @@ export default function Navbar() {
     { name: "About", path: "/about" },
     { name: "Speakers", path: "/speakers" },
     // { name: "Partners", path: "/partners" },
-    { name: "Agenda", path: "/agenda" },
+    // { name: "Agenda", path: "/agenda" },
   ];
 
   const controlNavbar = useCallback(() => {
