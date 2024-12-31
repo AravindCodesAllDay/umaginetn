@@ -81,7 +81,9 @@ export default function SpeakerPage() {
             />
             <div>
               <h2 className="font-bold text-xl mb-2">{speakerDetails.name}</h2>
-              <p className="text-primary mb-4">{speakerDetails.role}</p>
+              <p className="text-primary mb-4 text-sm md:text-base">
+                {speakerDetails.role}
+              </p>
             </div>
           </div>
           <p>{speakerDetails.bio}</p>

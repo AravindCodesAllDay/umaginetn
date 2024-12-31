@@ -13,7 +13,7 @@ export default function Modal({ children }: { children: React.ReactNode }) {
     setShowModal(false);
     setTimeout(() => {
       router.push("/speakers", { scroll: false });
-    }, 300);
+    }, 100);
   }, [router]);
 
   const onKeyDown = useCallback(

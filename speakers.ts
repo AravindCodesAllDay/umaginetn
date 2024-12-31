@@ -37,7 +37,7 @@ import speaker34 from "@/public/speakers/Krishnaveni S - NIQ.jpg";
 import speaker35 from "@/public/speakers/Kumar - Dexian photo.jpeg";
 import speaker36 from "@/public/speakers/Kumar Rangarajan.jpeg";
 import speaker37 from "@/public/speakers/Machaiah Kalengada - Photo.jpg";
-import speaker38 from "@/public/speakers/Madhan-Karky.jpg"; //
+import speaker38 from "@/public/speakers/Madhan-Karky.jpg";
 import speaker39 from "@/public/speakers/Manivannan Desicrew.jpeg";
 import speaker40 from "@/public/speakers/manu-iyer.jpg";
 import speaker41 from "@/public/speakers/Mario Royston - Photo.jpeg";
