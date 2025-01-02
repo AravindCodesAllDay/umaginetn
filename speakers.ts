@@ -245,8 +245,8 @@ export const eventSpeakers = [
   {
     id: "13",
     name: "Ms. Ipsita Dasgupta",
-    company: "", //
-    role: "senior executive",
+    company: "HP",
+    role: "SVP & MD",
     bio: "Ipsita Dasgupta is a senior executive in digital media and sports, currently focused on growing an international digital app for entertainment and sports. Her work experience spans the US, China, India and Southeast Asia and across multiple sectors, including high-tech, digital, general industrials and consulting. In Dasgupta's previous role, she was the chief commercial officer of GE South Asia and Greater China. During her time there she was responsible for strategy, new products and solutions for emerging markets and GE India's top 20 strategic customer accounts across GE businesses. Deeply passionate about growing the market opportunity in emerging markets, Dasgupta was part of the global Chairman's Commercial Council, where she connected the best products and services with the most promising and fastest growing markets in the world. Prior to joining GE, Dasgupta was managing director of smart connected communities (emerging businesses). She focused on developing business opportunities in emerging markets in financial services, education and health care for the growing middle-class consumer segment in these markets. Dasgupta moved to Cisco from IBM, where she worked since 2002, spanning strategy, marketing and operational roles in the US and India. Some of her work included building and driving business strategies and practices for IBM’s global hardware, software and services businesses and creating and leading IBM’s global senior consulting center of competency in India.Dasgupta holds a bachelor’s degree in mathematics and economics from Columbia University and an MBA from the Harvard Business School. She has held positions on multiple nonprofit boards, including Harvard Business School Community Partners, Harvard Business School Alumni Association, Americares, Acumen Fund and Swades Foundation.",
     photo: speaker28,
   },
