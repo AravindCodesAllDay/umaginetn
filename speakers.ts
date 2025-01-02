@@ -4,7 +4,6 @@ import speaker02 from "@/public/speakers/UdhaynidhiStalin.jpeg";
 import speaker03 from "@/public/speakers/PTR.jpeg";
 import speaker04 from "@/public/speakers/Kumar Jayant.jpeg";
 import speaker05 from "@/public/speakers/Rajesh Lakhoni.jpeg";
-import speaker06 from "@/public/speakers/Ramana Saraswathi.jpeg";
 import speaker07 from "@/public/speakers/Chandrika Kaushik.jpeg";
 import speaker08 from "@/public/speakers/Eash Sundaram.jpg";
 import speaker09 from "@/public/speakers/Naveen Unni.jpeg";
@@ -210,14 +209,6 @@ export const eventSpeakers = [
     role: "State Relief Commissioner, Revenue and Disaster Management",
     bio: "  ",
     photo: speaker05,
-  },
-  {
-    id: "8",
-    name: "Ramana Saraswathi",
-    company: "Elcot",
-    role: "MD",
-    bio: "",
-    photo: speaker06,
   },
   {
     id: "9",
