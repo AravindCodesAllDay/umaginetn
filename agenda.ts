@@ -546,62 +546,160 @@ export const timing = {
   dayTwo: {
     hallA: [
       {
-        timing: ["9:30 AM", "10:30 AM"],
-        title: "Session I: Advances in Quantum Computing",
-        tag: ["Quantum Computing", "Innovation"],
-        duration: 60,
-        speakers: [
-          {
-            name: "Liam Wilson",
-            designation: "Quantum Scientist, QuantumLab",
-          },
-        ],
+        timing: ["10:30 AM", "11:15 AM"],
+        title:
+          "Future-proofing the Workspace - Skilling and Scaling for Deep technologies",
+        tag: ["AI"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["11:25 AM", "12:15 PM"],
+        title:
+          "Beyond Chennai:: Building Emerging Tech Hubs for Tamil Nadu's Next Wave of Growth",
+        tag: ["Development of secondary tech hubs"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["12:30 PM", "01:15 PM"],
+        title: "Future-Ready Tamil Nadu: Scaling Emerging Tech Ecosystems",
+        tag: ["Emerging technologies and their impact"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["02:15 PM", "03:00 PM"],
+        title: "AI meets quantum - The next frontier",
+        tag: ["AI"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["03:15 PM", "04:00 PM"],
+        title:
+          "Leveraging AI in Cyber Defense, Can we predict and prevent crime leveraging AI?",
+        tag: ["AI"],
+        duration: 45,
+        speakers: [],
       },
     ],
     hallB: [
       {
-        timing: ["11:00 AM", "12:00 PM"],
-        title: "Panel: Women in Tech",
-        tag: ["Diversity", "Leadership"],
-        duration: 60,
-        speakers: [
-          {
-            name: "Emily Davis",
-            designation: "Founder, WomenInTech Initiative",
-          },
-          {
-            name: "Olivia Martinez",
-            designation: "Software Engineer, Meta",
-          },
-        ],
+        timing: ["10:30 AM", "11:15 AM"],
+        title:
+          "From Tn to the Globe - Beyond Borders Expanding Tamil Nadu's Digital Workforce",
+        tag: ["Talent development", "Scaling Operations and global outreach"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["11:25 AM", "12:15 PM"],
+        title:
+          "Building a Tech Talent Ecosystem: Nuturing the NExt Generation of Innovators",
+        tag: ["Talent development and retention"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["12:30 PM", "01:15 PM"],
+        title: "Making AI Real - The Infra",
+        tag: ["AI Infrastrusture"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["02:15 PM", "03:00 PM"],
+        title: "AI adoption across industries",
+        tag: ["AI"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["03:15 PM", "04:00 PM"],
+        title:
+          "Next-Gen Technologies Transforming Space Exploration and Defense Systems",
+        tag: ["Technologies for Defense and Space"],
+        duration: 45,
+        speakers: [],
       },
     ],
     hallC: [
       {
-        timing: ["10:00 AM", "11:00 AM"],
-        title: "Green Technologies for Sustainable Future",
-        tag: ["Sustainability", "Environment"],
-        duration: 60,
-        speakers: [
-          {
-            name: "Ethan Thomas",
-            designation: "Environmental Engineer, GreenTech",
-          },
-        ],
+        timing: ["10:00 AM", "10:30 AM"],
+        title: "Hyperlocal Marketplaces - Future of Economy",
+        tag: [""],
+        duration: 30,
+        speakers: [],
+      },
+      {
+        timing: ["11:25 AM", "12:15 PM"],
+        title:
+          "Leveraging AI in Cyber Defense, what talent needed in Tamil Nadu to build a world class cyber capability",
+        tag: ["AI"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["12:30 PM", "01:15 PM"],
+        title: "Cultivating Entrepreneurship in TN via Angel Investing",
+        tag: ["Entrepreneurship"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["02:15 PM", "03:00 PM"],
+        title:
+          "Data-Driven Telco: How organizations are Enabling predictive insights and Enhanced Network Performance",
+        tag: ["GCC"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["03:10 PM", "03:40 PM"],
+        title: "Adoptions of AI and impact in consulting",
+        tag: ["AI"],
+        duration: 30,
+        speakers: [],
       },
     ],
     hallD: [
       {
-        timing: ["1:00 PM", "2:00 PM"],
-        title: "The Power of Data Analytics",
-        tag: ["Big Data", "Analytics"],
-        duration: 60,
-        speakers: [
-          {
-            name: "Noah Taylor",
-            designation: "Data Scientist, DataVision",
-          },
-        ],
+        timing: ["10:30 AM", "11:15 PM"],
+        title:
+          "Driving Innovation and Resilience: The Role of GCC's in Shaping the Future of BSI",
+        tag: ["GCC BFSI"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["11:25 AM", "12:15 PM"],
+        title:
+          "Future-Proofing Global Healthcare: The Strategic Vision of GCC Leadership",
+        tag: ["GCC"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["12:30 PM", "01:15 PM"],
+        title: "Enterprise Grade AI",
+        tag: ["Emerging technologies and their impact"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["02:15 PM", "03:00 PM"],
+        title: "Innovation in Tamil Computing",
+        tag: ["Tamil Computing"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        timing: ["03:15 PM", "03:45 PM"],
+        title: "Cybersecurity in the age of AI",
+        tag: [""],
+        duration: 30,
+        speakers: [],
       },
     ],
   },

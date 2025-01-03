@@ -43,8 +43,8 @@ export default function EventSpeakers() {
             <h4 className="font-bold text-xs sm:text-sm md:text-lg lg:text-xl">
               {speaker.name}
             </h4>
-            <p className="text-xs text-primary">{speaker.company}</p>
             <p className="text-xs text-primary">{speaker.role}</p>
+            <p className="text-xs text-primary">{speaker.company}</p>
           </div>
         </AnimateUp>
       ))}
