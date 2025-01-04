@@ -14,7 +14,13 @@ export default function Modal({ children }: { children: React.ReactNode }) {
     setTimeout(() => {
       const baseRoute =
         window.location.pathname.split("/").slice(0, -1).join("/") || "/";
-      router.push(baseRoute, { scroll: false });
+      const hasSearchParams = window.location.search.length > 0;
+
+      if (!hasSearchParams) {
+        router.push("/agenda", { scroll: false });
+      } else {
+        router.push(baseRoute, { scroll: false });
+      }
     }, 100);
   }, [router]);
 

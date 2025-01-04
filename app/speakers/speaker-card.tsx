@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import Image, { StaticImageData } from "next/image";
+import { useEffect, useState } from "react";
 
 export default function SpeakerCard({
   speaker,
@@ -15,13 +16,27 @@ export default function SpeakerCard({
   };
 }) {
   const router = useRouter();
+  const [currentPath, setCurrentPath] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setCurrentPath(window.location.pathname);
+    }
+  }, []);
+
+  if (!currentPath) return null;
 
   return (
     <div className="flex flex-col items-center text-center transition-all duration-200 ease-in-out">
       <div
         className="relative group flex justify-center items-center text-primary transition-all duration-150 ease-in-out cursor-pointer"
         onClick={() =>
-          router.push(`/speakers/${speaker.id}`, { scroll: false })
+          router.push(
+            `/speakers/${speaker.id}?from=${encodeURIComponent(currentPath)}`,
+            {
+              scroll: false,
+            }
+          )
         }
       >
         <Image
