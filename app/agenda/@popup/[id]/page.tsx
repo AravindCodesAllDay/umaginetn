@@ -30,7 +30,7 @@ export default function AgendaPage() {
   const router = useRouter();
 
   const agendaDetails = useMemo<AgendaItem | null>(() => {
-    let agendaItem: AgendaItem | null = null; // Explicitly declare agendaItem as AgendaItem | null
+    let agendaItem: AgendaItem | null = null;
     let hallName = "";
     let day = "";
 
@@ -46,8 +46,8 @@ export default function AgendaPage() {
       });
     });
 
-    if (agendaItem) {
-      return { ...agendaItem, hallName, day }; // Correct spread usage
+    if (agendaItem !== null) {
+      return { ...(agendaItem as AgendaItem), hallName, day };
     }
     return null;
   }, [id]);
@@ -60,16 +60,6 @@ export default function AgendaPage() {
       )
       .filter(Boolean) as Speaker[];
   }, [agendaDetails]);
-
-  const goToAgenda = useCallback(
-    (index: number) => {
-      const targetAgenda = timing.dayOne.hallA[index];
-      if (targetAgenda) {
-        router.push(`/agenda/${targetAgenda.id}`, { scroll: false });
-      }
-    },
-    [router]
-  );
 
   useEffect(() => {
     if (id && !agendaDetails) {
@@ -88,21 +78,19 @@ export default function AgendaPage() {
   return (
     <Modal>
       <div className="flex flex-col gap-5 items-center justify-around p-5">
-        <div className="flex flex-col gap-3 overflow-y-auto max-h-[calc(100vh-4rem)] md:p-6">
+        <div className="flex flex-col gap-3 w-full overflow-y-auto max-h-[calc(100vh-4rem)] md:p-6">
           <div className="text-center">
-            <h2 className="font-bold text-xl mb-2">{agendaDetails.title}</h2>
+            <h2 className="font-bold text-2xl mb-2">{agendaDetails.title}</h2>
 
-            <p className="text-sm md:text-base flex justify-between">
-              <span>
-                <strong>Hall:</strong> {agendaDetails.hallName}
-              </span>
+            <p className="text-sm text-primary md:text-base flex justify-between">
+              <span className="font-semibold">{agendaDetails.hallName}</span>
               <span>
                 {agendaDetails.day === "dayOne"
                   ? "9th Jan 2025"
                   : "10th Jan 2025"}
               </span>
             </p>
-            <p className="text-primary text-sm md:text-base">
+            <p className="text-lg font-semibold">
               {agendaDetails.timing.join(" - ")}
             </p>
             <p className="text-primary mb-4 text-sm md:text-base">
