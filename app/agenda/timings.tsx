@@ -1,9 +1,12 @@
 "use client";
-
 import { useState } from "react";
 import AnimateUp from "@/components/animate-up";
-import { timing } from "@/agenda";
 import { useRouter } from "next/navigation";
+
+import { timing } from "@/agenda";
+import { eventSpeakers } from "@/speakers";
+import Image from "next/image";
+import Link from "next/link";
 
 type DayKey = "dayOne" | "dayTwo";
 type HallKey = "hallA" | "hallB" | "hallC" | "hallD";
@@ -83,8 +86,12 @@ export default function Timings() {
 
   const schedule = timing[dayKey]?.[selectedHall] || [];
 
+  const getSpeakers = (speakerIds: string[]) => {
+    return eventSpeakers.filter((speaker) => speakerIds.includes(speaker.id));
+  };
+
   return (
-    <div className="max-w-5xl mx-auto p-1 md:p-6">
+    <div className="max-w-5xl mx-auto p-1 md:p-6" id="days">
       <DaySelection selectedDay={selectedDay} onSelectDay={setSelectedDay} />
 
       <HallSelection
@@ -95,37 +102,50 @@ export default function Timings() {
       {/* Schedule Table */}
       <table className="min-w-full shadow-md">
         <tbody>
-          {schedule.map((session, index) => (
-            <tr
-              onClick={() =>
-                router.push(`/agenda/${session.id}`, { scroll: false })
-              }
-              key={index}
-              className={`p-2 md:p-4 cursor-pointer ${
-                index % 2 === 0
-                  ? "bg-secondary hover:bg-opacity-75 text-white"
-                  : "bg-white hover:bg-gray-50"
-              } transition-all duration-150 ease-in-out`}
-            >
-              <td className={`p-2 md:p-4 text-sm`}>
-                {session.timing.join(" - ")}
-              </td>
-              <td
-                className={`p-2 md:p-4 flex flex-col md:flex-row items-center gap-4`}
+          {schedule.map((session, index) => {
+            const speakers = getSpeakers(session.speakers);
+
+            return (
+              <tr
+                key={index}
+                className={`p-1 md:p-4 ${
+                  index % 2 === 0
+                    ? "bg-secondary hover:bg-opacity-75 text-white"
+                    : "bg-white hover:bg-gray-50"
+                } transition-all duration-150 ease-in-out`}
               >
-                <div>
-                  <p className="font-bold">{session.title}</p>
-                  <p className="text-sm">{session.tag.join(", ")}</p>
-                  <p className="text-sm">{session.duration} mins</p>
-                </div>
-              </td>
-            </tr>
-          ))}
+                <td className={`p-1 md:p-4 text-sm`}>
+                  {session.timing.join(" - ")}
+                </td>
+                <td
+                  className={`p-1 md:p-4 flex flex-col md:flex-row items-center gap-4`}
+                >
+                  <div className="text-sm md:text-base">
+                    <p className="font-bold">{session.title}</p>
+                    <p>{session.tag.join(", ")}</p>
+                    <p>{session.duration} mins</p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {speakers.map((speaker) => (
+                        <Image
+                          key={speaker.id}
+                          onClick={() => router.push(`/speakers/${speaker.id}`)}
+                          src={speaker.photo}
+                          alt={speaker.name}
+                          className="w-8 h-8 rounded-full object-cover cursor-pointer hover:scale-105 hover:opacity-75 transition-all duration-150 ease-in-out"
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
 
       <div className="flex justify-center gap-4 my-5">
-        <button
+        <Link
+          href={"agenda/#days"}
           onClick={() => setSelectedDay(1)}
           className={`px-4 py-2 rounded font-bold ${
             selectedDay === 1
@@ -134,8 +154,9 @@ export default function Timings() {
           }`}
         >
           Day 1
-        </button>
-        <button
+        </Link>
+        <Link
+          href={"agenda/#days"}
           onClick={() => setSelectedDay(2)}
           className={`px-4 py-2 rounded font-bold ${
             selectedDay === 2
@@ -144,7 +165,7 @@ export default function Timings() {
           }`}
         >
           Day 2
-        </button>
+        </Link>
       </div>
     </div>
   );
