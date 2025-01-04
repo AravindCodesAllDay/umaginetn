@@ -117,9 +117,7 @@ export default function Timings() {
                 <td className={`p-1 md:p-4 text-sm`}>
                   {session.timing.join(" - ")}
                 </td>
-                <td
-                  className={`p-1 md:p-4 flex flex-col md:flex-row items-center gap-4`}
-                >
+                <td className={`p-1 md:p-4 flex flex-col md:flex-row gap-4`}>
                   <div className="text-sm md:text-base">
                     <p className="font-bold">{session.title}</p>
                     <p>{session.tag.join(", ")}</p>

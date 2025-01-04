@@ -78,7 +78,7 @@ export default function AgendaPage() {
   return (
     <Modal>
       <div className="flex flex-col gap-5 items-center justify-around p-5">
-        <div className="flex flex-col gap-3 w-full overflow-y-auto max-h-[calc(100vh-4rem)] md:p-6">
+        <div className="flex flex-col gap-3 w-full max-h-[calc(100vh-4rem)] md:p-6">
           <div className="text-center">
             <h2 className="font-bold text-2xl mb-2">{agendaDetails.title}</h2>
 
@@ -97,7 +97,7 @@ export default function AgendaPage() {
               {agendaDetails.tag.join(", ")}
             </p>
           </div>
-          <div className="flex w-full justify-center gap-3">
+          <div className="flex flex-wrap w-full justify-center gap-3">
             {speakerDetails.map((speaker) => (
               <Image
                 onClick={() => router.push(`/speakers/${speaker.id}`)}
