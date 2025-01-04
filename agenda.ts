@@ -174,7 +174,7 @@ export const timing: Timing = {
         title: "Inaugural Session",
         tag: ["All Tracks"],
         duration: 60,
-        speakers: [],
+        speakers: ["1", "3", "5", "12", "13", "9", "7"],
       },
       {
         id: "45",
@@ -417,6 +417,14 @@ export const timing: Timing = {
         tag: [""],
         duration: 30,
         speakers: ["22"],
+      },
+      {
+        id: "46",
+        timing: ["04:15 PM", "05:15 PM"],
+        title: "Inaugural Session",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: ["2", "3", "4", "6", "7", "10", "21"],
       },
     ],
   },

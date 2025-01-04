@@ -1,49 +1,12 @@
-"use client";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 
 import header1 from "@/public/header1.jpg";
 import header2 from "@/public/header2.jpg";
 import { registrationLink } from "@/links";
 import Link from "next/link";
-
-const targetDate = new Date("2025-01-09T00:00:00");
-targetDate.setHours(9, 30, 0);
+import Countdown from "./countdown";
 
 export default function Header() {
-  const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
-  });
-
-  const calculateTimeLeft = () => {
-    const now = new Date();
-    const difference = targetDate.getTime() - now.getTime();
-
-    if (difference <= 0) {
-      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
-    }
-
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor(
-      (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-    return { days, hours, minutes, seconds };
-  };
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-
-    return () => clearInterval(intervalId);
-  }, []);
-
   return (
     <div className="relative w-full flex flex-col-reverse md:flex-row items-center">
       <div className="flex flex-col justify-center items-center w-full">
@@ -61,24 +24,7 @@ export default function Header() {
           >
             Register Now
           </Link>
-          <div className="flex gap-8 scale-75 lg:scale-100">
-            <p className="flex flex-col items-center justify-center rounded-full">
-              <span className="text-3xl font-bold">{timeLeft.days}</span>
-              <span className="text-xs font-semibold">DAYS</span>
-            </p>
-            <p className="flex flex-col items-center justify-center rounded-full">
-              <span className="text-3xl font-bold">{timeLeft.hours}</span>
-              <span className="text-xs font-semibold">HOURS</span>
-            </p>
-            <p className="flex flex-col items-center justify-center rounded-full">
-              <span className="text-3xl font-bold">{timeLeft.minutes}</span>
-              <span className="text-xs font-semibold">MINUTES</span>
-            </p>
-            <p className="flex flex-col items-center justify-center rounded-full">
-              <span className="text-3xl font-bold">{timeLeft.seconds}</span>
-              <span className="text-xs font-semibold">SECONDS</span>
-            </p>
-          </div>
+          <Countdown />
           <div>
             <p className="flex justify-center items-center gap-2 text-lg scale-85 md:scale-100 text-primary">
               <svg
@@ -122,8 +68,8 @@ export default function Header() {
         <Image
           src={header2}
           alt="header"
-          priority
           className="w-full object-cover h-full -z-10"
+          loading="lazy"
         />
       </div>
       <Image

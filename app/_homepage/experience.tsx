@@ -9,15 +9,23 @@ export default function Experience() {
       <h2 className="text-2xl sm:text-3xl font-bold text-white my-8">
         UmagaineTN 2025 <span className="text-secondary">Experience</span>
       </h2>
+
+      {/* Mobile version */}
       <Image
         src={phoneExperience}
-        alt="Desktop Experience Img"
+        alt="Phone Experience"
         className="w-full rounded sm:hidden"
+        sizes="(max-width: 640px) 100vw"
+        priority
       />
+
+      {/* Desktop version */}
       <Image
         src={desktopExperience}
-        alt="Desktop Experience Img"
+        alt="Desktop Experience"
         className="rounded hidden sm:block w-4/5"
+        sizes="(min-width: 641px) 80vw"
+        priority
       />
     </div>
   );

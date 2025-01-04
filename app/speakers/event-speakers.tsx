@@ -1,9 +1,7 @@
 import { Suspense } from "react";
-import dynamic from "next/dynamic";
 import AnimateUp from "@/components/animate-up";
 import { eventSpeakers } from "@/speakers";
-
-const SpeakerCard = dynamic(() => import("./speaker-card"));
+import SpeakerCard from "./speaker-card";
 
 export default function EventSpeakers() {
   return (

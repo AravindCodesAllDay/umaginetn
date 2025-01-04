@@ -46,7 +46,7 @@ export default function Modal({ children }: { children: React.ReactNode }) {
     >
       <div
         ref={wrapper}
-        className={`bg-white rounded w-11/12 lg:w-4/5 xl:w-3/5 max-h-[calc(100vh-4rem)] transition-transform duration-300 ${
+        className={`bg-white rounded w-11/12 lg:w-4/5 xl:w-3/5 max-h-[calc(100vh-4rem)] overflow-y-auto transition-transform duration-300 ${
           showModal ? "scale-100 opacity-100" : "scale-85 opacity-0"
         }`}
       >

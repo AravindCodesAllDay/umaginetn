@@ -1,5 +1,4 @@
 "use client";
-
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
@@ -24,7 +23,6 @@ export default function Navbar() {
     { name: "About", path: "/about" },
     { name: "Speakers", path: "/speakers" },
     { name: "Agenda", path: "/agenda" },
-    // { name: "Partners", path: "/partners" },
   ];
 
   const controlNavbar = useCallback(() => {
@@ -79,10 +77,38 @@ export default function Navbar() {
           href={"/"}
           className="flex flex-row gap-3 items-center scale-75 lg:scale-95"
         >
-          <Image src={Logo1} alt="logo" width={80} style={{ height: "auto" }} />
-          <Image src={Logo2} alt="logo" width={55} style={{ height: "auto" }} />
-          <Image src={Logo3} alt="logo" width={55} style={{ height: "auto" }} />
-          <Image src={Logo4} alt="logo" width={55} style={{ height: "auto" }} />
+          <Image
+            src={Logo1}
+            alt="UmagineTN Logo"
+            width={80}
+            height={80}
+            style={{ height: "auto" }}
+            priority
+          />
+          <Image
+            src={Logo2}
+            alt="ATTN Logo"
+            width={55}
+            height={55}
+            style={{ height: "auto" }}
+            priority
+          />
+          <Image
+            src={Logo3}
+            alt="GOV Logo"
+            width={55}
+            height={55}
+            style={{ height: "auto" }}
+            priority
+          />
+          <Image
+            src={Logo4}
+            alt="ELCOT Logo"
+            width={55}
+            height={55}
+            style={{ height: "auto" }}
+            priority
+          />
         </Link>
 
         <ul className="hidden md:flex items-center gap-3 lg:gap-8">

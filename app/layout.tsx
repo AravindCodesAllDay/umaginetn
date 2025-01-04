@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <Script
           id="gtm-script"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
                 (function(w,d,s,l,i){
@@ -32,11 +32,14 @@ export default function RootLayout({
                 })(window,document,'script','dataLayer','AW-16454344405');
               `,
           }}
+          defer
         />
+
         <Script
           src="https://cdn.lightwidget.com/widgets/lightwidget.js"
           strategy="lazyOnload"
         />
+
         <link
           rel="preload"
           href="/fonts/Fontspring-DEMO-neometricalt-black.otf"

@@ -87,7 +87,7 @@ export default function SpeakerPage() {
   return (
     <Modal>
       <div className="flex flex-col gap-5 items-center justify-around p-5">
-        <div className="flex flex-col gap-3 overflow-y-auto max-h-[calc(100vh-4rem)] md:p-6">
+        <div className="flex flex-col gap-3 max-h-[calc(100vh-4rem)] md:p-6">
           <div className="flex flex-col md:flex-row text-center items-center justify-center gap-3 md:gap-12 md:text-left">
             <Image
               src={speakerDetails.photo}
@@ -110,13 +110,22 @@ export default function SpeakerPage() {
               {filteredAgenda.map((session) => (
                 <li
                   key={session.id}
-                  className="mb-4 cursor-pointer"
+                  className="mb-4 cursor-pointer border-2 p-1 rounded"
                   onClick={() => router.push(`/agenda/${session.id}`)}
                 >
-                  <h4>{session.title}</h4>
+                  <h4 className="font-semibold text-lg">{session.title}</h4>
                   <p>Timing: {session.timing.join(" - ")}</p>
                   <p>Duration: {session.duration} minutes</p>
-                  <p>Tags: {session.tag.join(", ")}</p>
+                  <ul className="flex gap-1 text-xs">
+                    {session.tag.map((tag, index) => (
+                      <li
+                        key={index}
+                        className="bg-secondary rounded text-white p-0.5"
+                      >
+                        {tag}
+                      </li>
+                    ))}
+                  </ul>
                 </li>
               ))}
             </ul>

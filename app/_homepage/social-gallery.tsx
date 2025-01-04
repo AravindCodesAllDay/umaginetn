@@ -10,6 +10,7 @@ export default function SocialGallery() {
         src="https://cdn.lightwidget.com/widgets/1198042b6b2b5a12a37b224bce7ce384.html"
         scrolling="no"
         className="lightwidget-widget w-full border-0 overflow-hidden"
+        title="Social Media Gallery"
       ></iframe>
     </div>
   );
