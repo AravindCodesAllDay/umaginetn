@@ -27,6 +27,14 @@ export const timing: Timing = {
       },
       {
         id: "2",
+        timing: ["11:10 AM", "11:15 AM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 5,
+        speakers: [],
+      },
+      {
+        id: "3",
         timing: ["11:15 AM", "12:05 PM"],
         title:
           "Scaling AI for Impact - Strategies for Enterprise Growth and Innovation",
@@ -35,7 +43,15 @@ export const timing: Timing = {
         speakers: ["42", "41", "90", "40", "43"],
       },
       {
-        id: "3",
+        id: "4",
+        timing: ["12:05 PM", "12:15 PM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 10,
+        speakers: [],
+      },
+      {
+        id: "5",
         timing: ["12:10 PM", "01:00 PM"],
         title:
           "Next-Gen Cybersecurity - The Role of AI in the hyperconnected world",
@@ -44,7 +60,15 @@ export const timing: Timing = {
         speakers: ["58", "114", "89", "61"],
       },
       {
-        id: "4",
+        id: "6",
+        timing: ["01:00 PM", "02:00 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "7",
         timing: ["02:00 PM", "02:45 PM"],
         title:
           "GCC Next for Tamil Nadu: Strengthening Global Technology Leadership",
@@ -53,7 +77,15 @@ export const timing: Timing = {
         speakers: ["144", "68", "75", "94"],
       },
       {
-        id: "5",
+        id: "8",
+        timing: ["02:45 PM", "02:55 PM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 10,
+        speakers: [],
+      },
+      {
+        id: "9",
         timing: ["02:55 PM", "03:50 PM"],
         title: "The IT Engine: Driving Tamil Nadu's Economic Growth",
         tag: ["Role of IT in the state's development"],
@@ -61,7 +93,15 @@ export const timing: Timing = {
         speakers: ["147", "131", "32", "132", "116"],
       },
       {
-        id: "6",
+        id: "10",
+        timing: ["03:50 PM", "04:00 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 10,
+        speakers: [],
+      },
+      {
+        id: "11",
         timing: ["04:00 PM", "05:00 PM"],
         title: "AI for Public Good",
         tag: ["AI"],
@@ -71,7 +111,7 @@ export const timing: Timing = {
     ],
     hallB: [
       {
-        id: "7",
+        id: "12",
         timing: ["10:50 AM", "11:10 AM"],
         title: "The State of Deep Tech Investments: Today and Tomorrow",
         tag: ["Deeptech"],
@@ -79,7 +119,7 @@ export const timing: Timing = {
         speakers: ["87", "88", "159"],
       },
       {
-        id: "8",
+        id: "13",
         timing: ["11:45 AM", "12:20 PM"],
         title:
           "Innovative Solutions to Combat Climate ChangeL A Global Prespective",
@@ -88,7 +128,15 @@ export const timing: Timing = {
         speakers: ["91", "36", "37"],
       },
       {
-        id: "9",
+        id: "14",
+        timing: ["12:20 PM", "12:30 PM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 10,
+        speakers: [],
+      },
+      {
+        id: "15",
         timing: ["12:30 PM", "01:00 PM"],
         title:
           "Building a Resilinet Tamil Nadu: Local Solutions for Climate Action",
@@ -97,7 +145,15 @@ export const timing: Timing = {
         speakers: ["123", "130"],
       },
       {
-        id: "10",
+        id: "16",
+        timing: ["01:00 PM", "02:00 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "17",
         timing: ["02:00 PM", "02:30 PM"],
         title: "TN Startups - 3 Journeys",
         tag: ["Tech Startup Ecosystem"],
@@ -105,7 +161,7 @@ export const timing: Timing = {
         speakers: ["140", "84", "125"],
       },
       {
-        id: "11",
+        id: "18",
         timing: ["02:30 PM", "03:30 PM"],
         title:
           "The Role of private equity in taking TN startups national  and global",
@@ -114,7 +170,15 @@ export const timing: Timing = {
         speakers: ["20", "23", "65", "139", "33", "84", "125"],
       },
       {
-        id: "12",
+        id: "19",
+        timing: ["03:30 PM", "04:00 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 30,
+        speakers: [],
+      },
+      {
+        id: "20",
         timing: ["04:00 PM", "05:00 PM"],
         title: "Global Technology Trends and Local Impact",
         tag: ["G2G Tech Innovation"],
@@ -124,7 +188,7 @@ export const timing: Timing = {
     ],
     hallC: [
       {
-        id: "13",
+        id: "21",
         timing: ["11:00 AM", "12:05 PM"],
         title: "Quantum - The New Frontier of Computing",
         tag: ["Quantum Computing"],
@@ -132,7 +196,15 @@ export const timing: Timing = {
         speakers: ["16", "151", "86", "72"],
       },
       {
-        id: "14",
+        id: "22",
+        timing: ["12:05 PM", "12:15 PM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 10,
+        speakers: [],
+      },
+      {
+        id: "23",
         timing: ["12:15 PM", "01:00 PM"],
         title:
           "Building Skilled Talent Supply and Awarness for Emerging Industries & Jobs",
@@ -141,7 +213,15 @@ export const timing: Timing = {
         speakers: ["121", "112", "143", "98", "93"],
       },
       {
-        id: "15",
+        id: "24",
+        timing: ["01:00 PM", "02:00 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "25",
         timing: ["02:00 PM", "02:45 PM"],
         title: "EV Ecosystem",
         tag: ["EV"],
@@ -149,7 +229,15 @@ export const timing: Timing = {
         speakers: ["73", "141"],
       },
       {
-        id: "16",
+        id: "26",
+        timing: ["02:45 PM", "02:55 PM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "27",
         timing: ["02:55 PM", "03:50 PM"],
         title:
           "AI in Travel and Hospitality: Shaping the Future of Cost, Experience, and Next-Gen Travel",
@@ -158,7 +246,15 @@ export const timing: Timing = {
         speakers: ["35", "67", "47", "78"],
       },
       {
-        id: "17",
+        id: "28",
+        timing: ["03:50 PM", "04:00 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "29",
         timing: ["04:00 PM", "05:00 PM"],
         title:
           "Building Games from Tamil Nadu for the Global & Domestic Markets",
@@ -169,7 +265,7 @@ export const timing: Timing = {
     ],
     hallD: [
       {
-        id: "44",
+        id: "30",
         timing: ["09:30 AM", "10:30 AM"],
         title: "Inaugural Session",
         tag: ["All Tracks"],
@@ -177,7 +273,7 @@ export const timing: Timing = {
         speakers: ["1", "3", "5", "12", "13", "9", "7"],
       },
       {
-        id: "45",
+        id: "31",
         timing: ["10:30 AM", "10:50 AM"],
         title: "NETWORKING & BREAK",
         tag: ["All Tracks"],
@@ -185,7 +281,7 @@ export const timing: Timing = {
         speakers: [],
       },
       {
-        id: "18",
+        id: "32",
         timing: ["10:50 AM", "11:30 AM"],
         title:
           "Transforming the Workforce: The Role of AI in shaping the future of work",
@@ -194,7 +290,7 @@ export const timing: Timing = {
         speakers: ["12", "5", "13"],
       },
       {
-        id: "19",
+        id: "33",
         timing: ["11:45 AM", "12:15 PM"],
         title:
           "Powering Progress to $1T economy: Youth Leading the Digital Revolution",
@@ -203,7 +299,15 @@ export const timing: Timing = {
         speakers: ["3", "18"],
       },
       {
-        id: "20",
+        id: "34",
+        timing: ["12:15 PM", "12:30 PM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 15,
+        speakers: [],
+      },
+      {
+        id: "35",
         timing: ["12:30 PM", "01:15 PM"],
         title:
           "Innovation Centres: Accelerating Tamil Nadu's Tech Startup Growth",
@@ -212,7 +316,15 @@ export const timing: Timing = {
         speakers: ["9", "122", "102", "39", "88"],
       },
       {
-        id: "21",
+        id: "36",
+        timing: ["01:15 PM", "02:00 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 45,
+        speakers: [],
+      },
+      {
+        id: "37",
         timing: ["02:00 PM", "02:45 PM"],
         title:
           "Space Startups and Tamil Nadu's Emergence as a Space Investment Hub",
@@ -221,7 +333,15 @@ export const timing: Timing = {
         speakers: ["146", "53", "18", "124"],
       },
       {
-        id: "22",
+        id: "38",
+        timing: ["02:45 PM", "02:55 PM"],
+        title: "SESSION CHANGE",
+        tag: ["All Tracks"],
+        duration: 10,
+        speakers: [],
+      },
+      {
+        id: "39",
         timing: ["02:55 PM", "03:50 PM"],
         title:
           "Building a Globally secured and sustained enterprises through GCC",
@@ -230,7 +350,15 @@ export const timing: Timing = {
         speakers: ["101", "29", "30", "83", "77"],
       },
       {
-        id: "23",
+        id: "40",
+        timing: ["03:50 PM", "04:00 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 10,
+        speakers: [],
+      },
+      {
+        id: "41",
         timing: ["04:00 PM", "05:00 PM"],
         title:
           "Innovation as a Growth Catalyst: Tamil Nadu's Role in India Tech Future",
@@ -243,7 +371,7 @@ export const timing: Timing = {
   dayTwo: {
     hallA: [
       {
-        id: "24",
+        id: "42",
         timing: ["10:30 AM", "11:15 AM"],
         title:
           "Future-proofing the Workspace - Skilling and Scaling for Deep technologies",
@@ -252,7 +380,7 @@ export const timing: Timing = {
         speakers: ["103", "157", "62", "109", "82"],
       },
       {
-        id: "25",
+        id: "43",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Beyond Chennai:: Building Emerging Tech Hubs for Tamil Nadu's Next Wave of Growth",
@@ -261,7 +389,15 @@ export const timing: Timing = {
         speakers: ["105", "99", "119", "111"],
       },
       {
-        id: "26",
+        id: "44",
+        timing: ["12:15 PM", "12:30 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 15,
+        speakers: [],
+      },
+      {
+        id: "45",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Future-Ready Tamil Nadu: Scaling Emerging Tech Ecosystems",
         tag: ["Emerging technologies and their impact"],
@@ -269,7 +405,15 @@ export const timing: Timing = {
         speakers: ["106", "108", "70", "85"],
       },
       {
-        id: "27",
+        id: "46",
+        timing: ["01:15 PM", "02:15 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "47",
         timing: ["02:15 PM", "03:00 PM"],
         title: "AI meets quantum - The next frontier",
         tag: ["AI"],
@@ -277,7 +421,15 @@ export const timing: Timing = {
         speakers: ["150", "97", "118", "31", "46"],
       },
       {
-        id: "28",
+        id: "48",
+        timing: ["03:00 PM", "03:10 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "49",
         timing: ["03:15 PM", "04:00 PM"],
         title:
           "Leveraging AI in Cyber Defense, Can we predict and prevent crime leveraging AI?",
@@ -288,7 +440,7 @@ export const timing: Timing = {
     ],
     hallB: [
       {
-        id: "29",
+        id: "50",
         timing: ["10:30 AM", "11:15 AM"],
         title:
           "From TN to the Globe - Beyond Borders Expanding Tamil Nadu's Digital Workforce",
@@ -297,7 +449,7 @@ export const timing: Timing = {
         speakers: ["104", "81", "153", "107"],
       },
       {
-        id: "30",
+        id: "51",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Building a Tech Talent Ecosystem: Nuturing the NExt Generation of Innovators",
@@ -306,7 +458,15 @@ export const timing: Timing = {
         speakers: ["96", "80", "136"],
       },
       {
-        id: "31",
+        id: "52",
+        timing: ["12:15 PM", "12:30 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 15,
+        speakers: [],
+      },
+      {
+        id: "53",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Making AI Real - The Infra",
         tag: ["AI Infrastrusture"],
@@ -314,7 +474,15 @@ export const timing: Timing = {
         speakers: ["49", "134", "51", "15", "44"],
       },
       {
-        id: "32",
+        id: "54",
+        timing: ["01:15 PM", "02:15 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "55",
         timing: ["02:15 PM", "03:00 PM"],
         title: "AI adoption across industries",
         tag: ["AI"],
@@ -322,7 +490,15 @@ export const timing: Timing = {
         speakers: ["138", "60", "161", "135"],
       },
       {
-        id: "33",
+        id: "56",
+        timing: ["03:00 PM", "03:10 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "57",
         timing: ["03:15 PM", "04:00 PM"],
         title:
           "Next-Gen Technologies Transforming Space Exploration and Defense Systems",
@@ -333,7 +509,7 @@ export const timing: Timing = {
     ],
     hallC: [
       {
-        id: "34",
+        id: "58",
         timing: ["10:00 AM", "10:30 AM"],
         title: "Hyperlocal Marketplaces - Future of Economy",
         tag: [""],
@@ -341,7 +517,7 @@ export const timing: Timing = {
         speakers: ["92", "117"],
       },
       {
-        id: "35",
+        id: "59",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Leveraging AI in Cyber Defense, what talent needed in Tamil Nadu to build a world class cyber capability",
@@ -350,7 +526,15 @@ export const timing: Timing = {
         speakers: ["128", "55", "78", "129"],
       },
       {
-        id: "36",
+        id: "60",
+        timing: ["12:15 PM", "12:30 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 15,
+        speakers: [],
+      },
+      {
+        id: "61",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Cultivating Entrepreneurship in TN via Angel Investing",
         tag: ["Entrepreneurship"],
@@ -358,7 +542,15 @@ export const timing: Timing = {
         speakers: ["23", "69", "133"],
       },
       {
-        id: "37",
+        id: "62",
+        timing: ["01:15 PM", "02:15 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "63",
         timing: ["02:15 PM", "03:00 PM"],
         title:
           "Data-Driven Telco: How organizations are Enabling predictive insights and Enhanced Network Performance",
@@ -367,7 +559,15 @@ export const timing: Timing = {
         speakers: ["115", "50", "45", "95"],
       },
       {
-        id: "38",
+        id: "64",
+        timing: ["03:00 PM", "03:10 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "65",
         timing: ["03:10 PM", "03:40 PM"],
         title: "Adoptions of AI and impact in consulting",
         tag: ["AI"],
@@ -377,7 +577,7 @@ export const timing: Timing = {
     ],
     hallD: [
       {
-        id: "39",
+        id: "66",
         timing: ["10:30 AM", "11:15 PM"],
         title:
           "Driving Innovation and Resilience: The Role of GCC's in Shaping the Future of BSI",
@@ -386,7 +586,7 @@ export const timing: Timing = {
         speakers: ["64", "27", "71", "149", "52"],
       },
       {
-        id: "40",
+        id: "67",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Future-Proofing Global Healthcare: The Strategic Vision of GCC Leadership",
@@ -395,7 +595,15 @@ export const timing: Timing = {
         speakers: ["115", "59", "28"],
       },
       {
-        id: "41",
+        id: "68",
+        timing: ["12:15 PM", "12:30 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 15,
+        speakers: [],
+      },
+      {
+        id: "69",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Enterprise Grade AI",
         tag: ["Emerging technologies and their impact"],
@@ -403,7 +611,15 @@ export const timing: Timing = {
         speakers: ["19", "17"],
       },
       {
-        id: "42",
+        id: "70",
+        timing: ["01:15 PM", "02:15 PM"],
+        title: "NETWORKING & LUNCH BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "71",
         timing: ["02:15 PM", "03:00 PM"],
         title: "Innovation in Tamil Computing",
         tag: ["Tamil Computing"],
@@ -411,7 +627,15 @@ export const timing: Timing = {
         speakers: ["57"],
       },
       {
-        id: "43",
+        id: "72",
+        timing: ["03:00 PM", "03:10 PM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
+      },
+      {
+        id: "73",
         timing: ["03:15 PM", "03:45 PM"],
         title: "Cybersecurity in the age of AI",
         tag: [""],
@@ -419,9 +643,9 @@ export const timing: Timing = {
         speakers: ["22"],
       },
       {
-        id: "46",
+        id: "74",
         timing: ["04:15 PM", "05:15 PM"],
-        title: "Inaugural Session",
+        title: "Valedictory Section",
         tag: ["All Tracks"],
         duration: 60,
         speakers: ["2", "3", "4", "6", "7", "10", "21"],

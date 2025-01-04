@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        social: "url('/socialmedia.jpg')",
+        experience: "url('/bg12.jpg')",
+        title: "url('/title.jpg')",
+      },
+
       animation: {
         scroll: "scroll 15s linear infinite",
       },

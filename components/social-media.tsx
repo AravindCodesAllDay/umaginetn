@@ -1,10 +1,7 @@
-import Image from "next/image";
-
 import Link from "next/link";
 
 import AnimateUp from "./animate-up";
 import { facebookLink, instagramLink, twitterLink, youtubeLink } from "@/links";
-import socialmedia from "@/public/socialmedia.jpg";
 
 export default function SocialMedia() {
   const links = [
@@ -91,12 +88,7 @@ export default function SocialMedia() {
   ];
 
   return (
-    <div className="w-full relative min-h-80 h-full flex flex-col items-center justify-center gap-5 my-5">
-      <Image
-        src={socialmedia}
-        alt="Social media background"
-        className="absolute w-full h-full -z-10"
-      />
+    <div className="w-full min-h-80 h-full flex flex-col items-center justify-center gap-5 my-5 bg-social bg-cover bg-no-repeat bg-center">
       <h2 className="font-semibold text-xl text-primary">FOLLOW US ON</h2>
       <AnimateUp>
         <ul className="flex gap-4">
