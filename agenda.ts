@@ -1,661 +1,373 @@
-export const timing = {
+interface AgendaItem {
+  id: string;
+  title: string;
+  timing: string[];
+  tag: string[];
+  duration: number;
+  speakers: string[];
+}
+
+interface Timing {
+  [day: string]: {
+    [hall: string]: AgendaItem[];
+  };
+}
+
+export const timing: Timing = {
   dayOne: {
     hallA: [
       {
+        id: "1",
         timing: ["10:50 AM", "11:10 AM"],
-        title: "-",
+        title:
+          "Charting the Path to Responsible AI: Balancing Innovation with Accountability",
         tag: ["AI"],
         duration: 20,
-        speakers: [
-          {
-            name: "Mr. Jibu Elias",
-            designation: "AI Ethicist, Mozilla Foundation",
-          },
-        ],
+        speakers: ["97"],
       },
       {
+        id: "2",
         timing: ["11:15 AM", "12:05 PM"],
         title:
           "Scaling AI for Impact - Strategies for Enterprise Growth and Innovation",
         tag: ["AI", "Innovation"],
         duration: 50,
-        speakers: [
-          {
-            name: "Dr. Subramani Ramakrishnan",
-            designation: "VP, UPS India Technology Center",
-          },
-          {
-            name: "Mr. Kaushik Dey",
-            designation: "Head of AI/ML Research, Ericsson",
-          },
-          {
-            name: "Mr. Furhan Ahmed",
-            designation: "Global CIO, Gabriel Inc",
-          },
-          {
-            name: "Mr. Debasis Panda",
-            designation: "Head, Transunion",
-          },
-          {
-            name: "Mr. Hari Subramanian",
-            designation: "MD, Colruyt India",
-          },
-        ],
+        speakers: ["42", "41", "90", "40", "43"],
       },
       {
+        id: "3",
         timing: ["12:10 PM", "01:00 PM"],
         title:
           "Next-Gen Cybersecurity - The Role of AI in the hyperconnected world",
         tag: ["AI"],
         duration: 50,
-        speakers: [
-          {
-            name: "Mr. Mayuran Palanisamy",
-            designation: "Partner and Head of Data Privacy, Deloitte",
-          },
-          {
-            name: "Ms. Minu Agarwal",
-            designation: "Executive Director, Standard Chartered Bank",
-          },
-          {
-            name: "<Ms. Eva James",
-            designation: "VP - IS/IT, Renault Nissan Technology",
-          },
-          {
-            name: "Mr. Sridhar Sidhu",
-            designation: "CVP Blocking & Tackling, AT&T",
-          },
-          {
-            name: "Mr. Anand Upadhyay",
-            designation: "DIrector & Country Manager, ZScaler",
-          },
-        ],
+        speakers: ["58", "114", "89", "61"],
       },
       {
+        id: "4",
         timing: ["02:00 PM", "02:45 PM"],
         title:
           "GCC Next for Tamil Nadu: Strengthening Global Technology Leadership",
         tag: ["GCC"],
         duration: 45,
-        speakers: [
-          {
-            name: "Srikanth Srinivasan",
-            designation:
-              "Vice President and Jead - Membership & Outreach, Nasscom",
-          },
-          {
-            name: "Akhil Kapoor",
-            designation:
-              "Vice President - GBS Global Procurement & Head of GBS - India, Adidas",
-          },
-          {
-            name: "Aswin Lakshmanan",
-            designation: "Senio Director Strategy & Planning, Verizon",
-          },
-          {
-            name: "Mr. Hemant Tulsian",
-            designation: "Vice President, Fiedlity Investments",
-          },
-        ],
+        speakers: ["144", "68", "75", "94"],
       },
       {
+        id: "5",
         timing: ["02:55 PM", "03:50 PM"],
         title: "The IT Engine: Driving Tamil Nadu's Economic Growth",
         tag: ["Role of IT in the state's development"],
         duration: 45,
-        speakers: [
-          {
-            name: "Mr. Srinivas Iyengar",
-            designation:
-              "Vice President - Healthcare & Life Sciences, Happiest Minds",
-          },
-          {
-            name: "Mr. Rajasekaran P",
-            designation: "Chief Product Officer, Bahwan CyberTek",
-          },
-          {
-            name: "Mr. Rajasekaran Sankaralingam",
-            designation:
-              "SVP, Head of Sales Enablement and Client Solutions, Movate",
-          },
-          {
-            name: "Mr. Muthu Govindarajan",
-            designation: "Partner - Data Engineering, Tiger Analytics",
-          },
-        ],
+        speakers: ["147", "131", "32", "132", "116"],
       },
       {
+        id: "6",
         timing: ["04:00 PM", "05:00 PM"],
         title: "AI for Public Good",
         tag: ["AI"],
         duration: 60,
-        speakers: [],
+        speakers: ["154"],
       },
     ],
     hallB: [
       {
+        id: "7",
         timing: ["10:50 AM", "11:10 AM"],
         title: "The State of Deep Tech Investments: Today and Tomorrow",
         tag: ["Deeptech"],
         duration: 45,
-        speakers: [
-          {
-            name: "Dr. Senthil Sambandam",
-            designation: "MBBS, Med-Tech Investor",
-          },
-          {
-            name: "Dr. Viveka Kalidasan",
-            designation: "Founder & CEO, River Venture Studio",
-          },
-          {
-            name: "Mr. Vijai Raghavan",
-            designation: "Head of Operations EQT Private Capital Asia",
-          },
-        ],
+        speakers: ["87", "88", "159"],
       },
       {
+        id: "8",
         timing: ["11:45 AM", "12:20 PM"],
         title:
           "Innovative Solutions to Combat Climate ChangeL A Global Prespective",
         tag: ["Climate Change", "A Global Prespective"],
         duration: 35,
-        speakers: [
-          {
-            name: "G. Sundarrajan",
-            designation:
-              "Member Tamil Nadu Governing Council for CLimate Change and One Health Strategic Committee, GoTN",
-          },
-          {
-            name: "Julia McCarthy",
-            designation: "Federal Emergency Management Agency",
-          },
-          {
-            name: "Steven Metzler",
-            designation: "San Antonio River Authority",
-          },
-          {
-            name: "Steven Metzler",
-            designation: "San Antonio River Authority",
-          },
-        ],
+        speakers: ["91", "36", "37"],
       },
       {
+        id: "9",
         timing: ["12:30 PM", "01:00 PM"],
         title:
           "Building a Resilinet Tamil Nadu: Local Solutions for Climate Action",
         tag: ["Climate Change", "A Local Prespective"],
         duration: 30,
-        speakers: [
-          {
-            name: "Pradeep John",
-            designation: "Tamilnadu Weatherman",
-          },
-          {
-            name: "Raj Bhagat Palanichamy",
-            designation: "WRI India",
-          },
-        ],
+        speakers: ["123", "130"],
       },
       {
+        id: "10",
         timing: ["02:00 PM", "02:30 PM"],
         title: "TN Startups - 3 Journeys",
         tag: ["Tech Startup Ecosystem"],
         duration: 30,
-        speakers: [
-          {
-            name: "Satya Chakravarty",
-            designation: "Founder, ePlane",
-          },
-          {
-            name: "Dinesh Arjun",
-            designation: "Co-Founder & CEO, Raptee Motors",
-          },
-          {
-            name: "Prasanna Venkatesan",
-            designation: "CEO, Petavue",
-          },
-        ],
+        speakers: ["140", "84", "125"],
       },
       {
+        id: "11",
         timing: ["02:30 PM", "03:30 PM"],
         title:
           "The Role of private equity in taking TN startups national  and global",
         tag: ["Tech Startup Ecosystem"],
         duration: 60,
-        speakers: [
-          {
-            name: "Naveen Unni",
-            designation: "",
-          },
-          {
-            name: "Dinesh Arjun",
-            designation: "Co-Founder & CEO, Raptee Motors",
-          },
-          {
-            name: "Prasanna Venkatesan",
-            designation: "CEO, Petavue",
-          },
-          {
-            name: "Mithun Sacheti",
-            designation: "Venture Capitalist",
-          },
-          {
-            name: "Sathya Sampath",
-            designation: "BoldCap, Managing Partner",
-          },
-          {
-            name: "Vishesh Rajaram",
-            designation: "Managing Partnet, Special Invest",
-          },
-          {
-            name: "Manu Iyer",
-            designation: "Managing Partnet, Bluhill Capital",
-          },
-        ],
+        speakers: ["20", "23", "65", "139", "33", "84", "125"],
       },
       {
+        id: "12",
         timing: ["04:00 PM", "05:00 PM"],
-        title:
-          "The Role of private equity in taking TN startups national  and global",
+        title: "Global Technology Trends and Local Impact",
         tag: ["G2G Tech Innovation"],
         duration: 60,
-        speakers: [],
+        speakers: ["137", "34", "38", "100", "79"],
       },
     ],
     hallC: [
       {
+        id: "13",
         timing: ["11:00 AM", "12:05 PM"],
         title: "Quantum - The New Frontier of Computing",
         tag: ["Quantum Computing"],
         duration: 60,
-        speakers: [
-          {
-            name: "Suresh Sambandam",
-            designation: "MD, Kissflow",
-          },
-          {
-            name: "Sunil",
-            designation: "CEO Qnu Labs",
-          },
-          {
-            name: "Nagendra",
-            designation: "Founder, Q-Pi-Ai",
-          },
-          {
-            name: "Sanjay Chittore",
-            designation: "Founder, Quantum AI",
-          },
-          {
-            name: "Gopi",
-            designation: "Founder, Xeedq GmbH",
-          },
-          {
-            name: "Dr. Krishna Palem",
-            designation:
-              "Professor, Rice University & Founding CEO, Accounting",
-          },
-        ],
+        speakers: ["16", "151", "86", "72"],
       },
       {
+        id: "14",
         timing: ["12:15 PM", "01:00 PM"],
         title:
           "Building Skilled Talent Supply and Awarness for Emerging Industries & Jobs",
         tag: ["AVGC Global Standard"],
         duration: 45,
-        speakers: [
-          {
-            name: "Pavithra Sridhar",
-            designation: "Independent Game Design Consultant",
-          },
-          {
-            name: "Manvendra Shukul",
-            designation: "CEO, Lakshya Digital",
-          },
-          {
-            name: "Sridhar Muppidi",
-            designation: "Chairperson, Game Developer Association of India",
-          },
-          {
-            name: "Joshua Jebadurai",
-            designation: "CEO, GitInk Studios",
-          },
-        ],
+        speakers: ["121", "112", "143", "98", "93"],
       },
       {
+        id: "15",
         timing: ["02:00 PM", "02:45 PM"],
         title: "EV Ecosystem",
         tag: ["EV"],
         duration: 45,
-        speakers: [
-          {
-            name: "Arun Vinayak",
-            designation: "Co-Founder, Exponent Energy",
-          },
-          {
-            name: "Velusamy",
-            designation: "President R&D, Mahindra & Mahindra",
-          },
-          {
-            name: "Sreeji Kumar",
-            designation: "CDIO, Tata Agartas",
-          },
-          {
-            name: "Joshua Jebadurai",
-            designation: "CEO, GitInk Studios",
-          },
-        ],
+        speakers: ["73", "141"],
       },
       {
+        id: "16",
         timing: ["02:55 PM", "03:50 PM"],
         title:
           "AI in Travel and Hospitality: Shaping the Future of Cost, Experience, and Next-Gen Travel",
         tag: ["AI"],
         duration: 45,
-        speakers: [
-          {
-            name: "Neetan Chopra",
-            designation: "CIO, Indigo",
-          },
-          {
-            name: "Ashish Vikram",
-            designation: "CTO, SpiceJet",
-          },
-          {
-            name: "Adity Shekhar",
-            designation: "Vp, Embraer",
-          },
-          {
-            name: "Mani",
-            designation: "SVP, Hexaware",
-          },
-        ],
+        speakers: ["35", "67", "47", "78"],
       },
       {
+        id: "17",
         timing: ["04:00 PM", "05:00 PM"],
         title:
           "Building Games from Tamil Nadu for the Global & Domestic Markets",
         tag: ["AVGC Global Standard"],
         duration: 60,
-        speakers: [],
+        speakers: ["110", "126", "113", "160", "66"],
       },
     ],
     hallD: [
       {
-        timing: ["10:50 AM", "11:30 AM"],
-        title: "Accelerating innovation for Quantum Computing",
-        tag: ["AI"],
-        duration: 45,
-        speakers: [
-          {
-            name: "C. Vijayakumar",
-            designation: "MD, HCLTech",
-          },
-          {
-            name: "Krishna IAS",
-            designation: "Secertary of MeiTY, Government of India",
-          },
-          {
-            name: "Ipsita Das",
-            designation: "SVP & MD, HP",
-          },
-        ],
+        id: "44",
+        timing: ["09:30 AM", "10:30 AM"],
+        title: "Inaugural Session",
+        tag: ["All Tracks"],
+        duration: 60,
+        speakers: [],
       },
       {
+        id: "45",
+        timing: ["10:30 AM", "10:50 AM"],
+        title: "NETWORKING & BREAK",
+        tag: ["All Tracks"],
+        duration: 20,
+        speakers: [],
+      },
+      {
+        id: "18",
+        timing: ["10:50 AM", "11:30 AM"],
+        title:
+          "Transforming the Workforce: The Role of AI in shaping the future of work",
+        tag: ["AI"],
+        duration: 45,
+        speakers: ["12", "5", "13"],
+      },
+      {
+        id: "19",
         timing: ["11:45 AM", "12:15 PM"],
         title:
           "Powering Progress to $1T economy: Youth Leading the Digital Revolution",
         tag: ["AI"],
         duration: 30,
-        speakers: [
-          {
-            name: "Hon'ble Minister",
-            designation: "ITDS",
-          },
-          {
-            name: "Eash Sundaram",
-            designation: "President & CEO, Utpata Ventures",
-          },
-        ],
+        speakers: ["3", "18"],
       },
       {
+        id: "20",
         timing: ["12:30 PM", "01:15 PM"],
         title:
           "Innovation Centres: Accelerating Tamil Nadu's Tech Startup Growth",
         tag: ["Tech Startup Ecosystem"],
         duration: 45,
-        speakers: [
-          {
-            name: "Dr. Viveka Kalidasan",
-            designation: "Founder & CEO, River Venture Studio, Singapore",
-          },
-          {
-            name: "Mr. Arvind Kumar",
-            designation: "Director, STPI",
-          },
-          {
-            name: "Mr. Prabhu Rangarajan",
-            designation: "Co-Founder M2P Finance",
-          },
-          {
-            name: "Mr. Kapildev Arulmozhi",
-            designation: "Co-Founder and President, Entrans",
-          },
-          {
-            name: "James Lee",
-            designation: "Chairman, A2000, Singapore",
-          },
-        ],
+        speakers: ["9", "122", "102", "39", "88"],
       },
       {
-        timing: ["02:00 PM", "03:50 PM"],
+        id: "21",
+        timing: ["02:00 PM", "02:45 PM"],
         title:
           "Space Startups and Tamil Nadu's Emergence as a Space Investment Hub",
         tag: ["Satellite Technology"],
         duration: 45,
-        speakers: [
-          {
-            name: "Eash Sundaram",
-            designation: "President & CEO, Utpata Ventures",
-          },
-          {
-            name: "Suyash Singh",
-            designation: "Founder, Galaxeye",
-          },
-          {
-            name: "Srinath",
-            designation: "Founder & CEO, Agnikul Cosmos",
-          },
-          {
-            name: "Adam Levy",
-            designation: "CTO, Intelat",
-          },
-          {
-            name: "Ram Kuppusamy",
-            designation: "FOunder & CEO, Space Angel",
-          },
-        ],
+        speakers: ["146", "53", "18", "124"],
       },
       {
-        timing: ["02:55 PM", "03:50 PM"],
-        title:
-          "Space Startups and Tamil Nadu's Emergence as a Space Investment Hub",
-        tag: ["Satellite Technology"],
-        duration: 45,
-        speakers: [
-          {
-            name: "Eash Sundaram",
-            designation: "President & CEO, Utpata Ventures",
-          },
-          {
-            name: "Suyash Singh",
-            designation: "Founder, Galaxeye",
-          },
-          {
-            name: "Srinath",
-            designation: "Founder & CEO, Agnikul Cosmos",
-          },
-          {
-            name: "Adam Levy",
-            designation: "CTO, Intelat",
-          },
-          {
-            name: "Ram Kuppusamy",
-            designation: "FOunder & CEO, Space Angel",
-          },
-        ],
-      },
-      {
+        id: "22",
         timing: ["02:55 PM", "03:50 PM"],
         title:
           "Building a Globally secured and sustained enterprises through GCC",
         tag: ["GCC"],
         duration: 45,
-        speakers: [
-          {
-            name: "K.S Viswanathan",
-            designation: "Chief Mentor, Stratinfinity, Former VP, Nasscom",
-          },
-          {
-            name: "Debashish Neogi",
-            designation: "MD & Country Head, Renault Nissan",
-          },
-          {
-            name: "Prasanth Doreswamy",
-            designation: "CEO, Continental",
-          },
-          {
-            name: "Balu Chatruvedula",
-            designation: "SVP & Country Head, Walmart",
-          },
-          {
-            name: "Bhuvan Anandkrishnan",
-            designation: "VP & COuntry Head, Caterpillar",
-          },
-        ],
+        speakers: ["101", "29", "30", "83", "77"],
       },
       {
+        id: "23",
         timing: ["04:00 PM", "05:00 PM"],
         title:
           "Innovation as a Growth Catalyst: Tamil Nadu's Role in India Tech Future",
-        tag: ["GCC"],
+        tag: ["Innovation in industry"],
         duration: 60,
-        speakers: [],
+        speakers: ["76", "21", "28", "29"],
       },
     ],
   },
   dayTwo: {
     hallA: [
       {
+        id: "24",
         timing: ["10:30 AM", "11:15 AM"],
         title:
           "Future-proofing the Workspace - Skilling and Scaling for Deep technologies",
         tag: ["AI"],
         duration: 45,
-        speakers: [],
+        speakers: ["103", "157", "62", "109", "82"],
       },
       {
+        id: "25",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Beyond Chennai:: Building Emerging Tech Hubs for Tamil Nadu's Next Wave of Growth",
         tag: ["Development of secondary tech hubs"],
         duration: 45,
-        speakers: [],
+        speakers: ["105", "99", "119", "111"],
       },
       {
+        id: "26",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Future-Ready Tamil Nadu: Scaling Emerging Tech Ecosystems",
         tag: ["Emerging technologies and their impact"],
         duration: 45,
-        speakers: [],
+        speakers: ["106", "108", "70", "85"],
       },
       {
+        id: "27",
         timing: ["02:15 PM", "03:00 PM"],
         title: "AI meets quantum - The next frontier",
         tag: ["AI"],
         duration: 45,
-        speakers: [],
+        speakers: ["150", "97", "118", "31", "46"],
       },
       {
+        id: "28",
         timing: ["03:15 PM", "04:00 PM"],
         title:
           "Leveraging AI in Cyber Defense, Can we predict and prevent crime leveraging AI?",
         tag: ["AI"],
         duration: 45,
-        speakers: [],
+        speakers: ["162", "11", "26"],
       },
     ],
     hallB: [
       {
+        id: "29",
         timing: ["10:30 AM", "11:15 AM"],
         title:
-          "From Tn to the Globe - Beyond Borders Expanding Tamil Nadu's Digital Workforce",
+          "From TN to the Globe - Beyond Borders Expanding Tamil Nadu's Digital Workforce",
         tag: ["Talent development", "Scaling Operations and global outreach"],
         duration: 45,
-        speakers: [],
+        speakers: ["104", "81", "153", "107"],
       },
       {
+        id: "30",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Building a Tech Talent Ecosystem: Nuturing the NExt Generation of Innovators",
         tag: ["Talent development and retention"],
         duration: 45,
-        speakers: [],
+        speakers: ["96", "80", "136"],
       },
       {
+        id: "31",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Making AI Real - The Infra",
         tag: ["AI Infrastrusture"],
         duration: 45,
-        speakers: [],
+        speakers: ["49", "134", "51", "15", "44"],
       },
       {
+        id: "32",
         timing: ["02:15 PM", "03:00 PM"],
         title: "AI adoption across industries",
         tag: ["AI"],
         duration: 45,
-        speakers: [],
+        speakers: ["138", "60", "161", "135"],
       },
       {
+        id: "33",
         timing: ["03:15 PM", "04:00 PM"],
         title:
           "Next-Gen Technologies Transforming Space Exploration and Defense Systems",
         tag: ["Technologies for Defense and Space"],
         duration: 45,
-        speakers: [],
+        speakers: ["140", "10", "25"],
       },
     ],
     hallC: [
       {
+        id: "34",
         timing: ["10:00 AM", "10:30 AM"],
         title: "Hyperlocal Marketplaces - Future of Economy",
         tag: [""],
         duration: 30,
-        speakers: [],
+        speakers: ["92", "117"],
       },
       {
+        id: "35",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Leveraging AI in Cyber Defense, what talent needed in Tamil Nadu to build a world class cyber capability",
         tag: ["AI"],
         duration: 45,
-        speakers: [],
+        speakers: ["128", "55", "78", "129"],
       },
       {
+        id: "36",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Cultivating Entrepreneurship in TN via Angel Investing",
         tag: ["Entrepreneurship"],
         duration: 45,
-        speakers: [],
+        speakers: ["23", "69", "133"],
       },
       {
+        id: "37",
         timing: ["02:15 PM", "03:00 PM"],
         title:
           "Data-Driven Telco: How organizations are Enabling predictive insights and Enhanced Network Performance",
         tag: ["GCC"],
         duration: 45,
-        speakers: [],
+        speakers: ["115", "50", "45", "95"],
       },
       {
+        id: "38",
         timing: ["03:10 PM", "03:40 PM"],
         title: "Adoptions of AI and impact in consulting",
         tag: ["AI"],
@@ -665,41 +377,46 @@ export const timing = {
     ],
     hallD: [
       {
+        id: "39",
         timing: ["10:30 AM", "11:15 PM"],
         title:
           "Driving Innovation and Resilience: The Role of GCC's in Shaping the Future of BSI",
         tag: ["GCC BFSI"],
         duration: 45,
-        speakers: [],
+        speakers: ["64", "27", "71", "149", "52"],
       },
       {
+        id: "40",
         timing: ["11:25 AM", "12:15 PM"],
         title:
           "Future-Proofing Global Healthcare: The Strategic Vision of GCC Leadership",
         tag: ["GCC"],
         duration: 45,
-        speakers: [],
+        speakers: ["115", "59", "28"],
       },
       {
+        id: "41",
         timing: ["12:30 PM", "01:15 PM"],
         title: "Enterprise Grade AI",
         tag: ["Emerging technologies and their impact"],
         duration: 45,
-        speakers: [],
+        speakers: ["19", "17"],
       },
       {
+        id: "42",
         timing: ["02:15 PM", "03:00 PM"],
         title: "Innovation in Tamil Computing",
         tag: ["Tamil Computing"],
         duration: 45,
-        speakers: [],
+        speakers: ["57"],
       },
       {
+        id: "43",
         timing: ["03:15 PM", "03:45 PM"],
         title: "Cybersecurity in the age of AI",
         tag: [""],
         duration: 30,
-        speakers: [],
+        speakers: ["22"],
       },
     ],
   },

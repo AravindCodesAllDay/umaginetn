@@ -6,6 +6,7 @@ import Image from "next/image";
 
 import Modal from "@/components/modal";
 import { eventSpeakers } from "@/speakers";
+import { timing } from "@/agenda";
 
 export default function SpeakerPage() {
   const { id } = useParams();
@@ -18,6 +19,20 @@ export default function SpeakerPage() {
   const speakerDetails = useMemo(() => {
     return eventSpeakers[speakerIndex] || null;
   }, [speakerIndex]);
+
+  const filteredAgenda = useMemo(() => {
+    if (!speakerDetails) return [];
+
+    const agendaTitles = Object.values(timing).flatMap((day) =>
+      Object.values(day).flatMap((sessions) =>
+        sessions.filter((session) =>
+          session.speakers.includes(speakerDetails.id)
+        )
+      )
+    );
+
+    return agendaTitles;
+  }, [speakerDetails]);
 
   const goToSpeaker = useCallback(
     (index: number) => {
@@ -90,6 +105,22 @@ export default function SpeakerPage() {
             </div>
           </div>
           <p>{speakerDetails.bio}</p>
+          {filteredAgenda.length > 0 && (
+            <ul>
+              {filteredAgenda.map((session) => (
+                <li
+                  key={session.id}
+                  className="mb-4 cursor-pointer"
+                  onClick={() => router.push(`/agenda/${session.id}`)}
+                >
+                  <h4>{session.title}</h4>
+                  <p>Timing: {session.timing.join(" - ")}</p>
+                  <p>Duration: {session.duration} minutes</p>
+                  <p>Tags: {session.tag.join(", ")}</p>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
         <div className="flex w-full absolute justify-between p-1">
           <button

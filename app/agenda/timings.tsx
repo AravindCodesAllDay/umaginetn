@@ -3,6 +3,7 @@
 import { useState } from "react";
 import AnimateUp from "@/components/animate-up";
 import { timing } from "@/agenda";
+import { useRouter } from "next/navigation";
 
 type DayKey = "dayOne" | "dayTwo";
 type HallKey = "hallA" | "hallB" | "hallC" | "hallD";
@@ -57,13 +58,13 @@ function HallSelection({
   ];
 
   return (
-    <div className="flex justify-center items-center border-b-4 border-primary text-white">
+    <div className="flex justify-center items-center border-b-4 border-secondary text-white">
       {halls.map(({ id, label, rounded }) => (
         <button
           key={id}
           onClick={() => onSelectHall(id as HallKey)}
           className={`px-4 md:px-6 py-2 font-bold ${rounded || ""} ${
-            selectedHall === id ? "bg-primary" : "bg-secondary hover:opacity-75"
+            selectedHall === id ? "bg-secondary" : "bg-primary hover:opacity-75"
           }`}
         >
           {label}
@@ -74,6 +75,7 @@ function HallSelection({
 }
 
 export default function Timings() {
+  const router = useRouter();
   const [selectedDay, setSelectedDay] = useState<number>(1);
   const [selectedHall, setSelectedHall] = useState<HallKey>("hallD");
 
@@ -83,45 +85,38 @@ export default function Timings() {
 
   return (
     <div className="max-w-5xl mx-auto p-1 md:p-6">
-      {/* Day Selection */}
       <DaySelection selectedDay={selectedDay} onSelectDay={setSelectedDay} />
 
-      {/* Hall Selection */}
       <HallSelection
         selectedHall={selectedHall}
         onSelectHall={setSelectedHall}
       />
 
       {/* Schedule Table */}
-      <table className="min-w-full">
+      <table className="min-w-full shadow-md">
         <tbody>
           {schedule.map((session, index) => (
-            <tr key={index}>
-              <td
-                className={`p-2 md:p-4 text-white ${
-                  index % 2 === 0 ? "bg-primary" : "bg-secondary"
-                } transition-all duration-150 ease-in-out`}
-              >
+            <tr
+              onClick={() =>
+                router.push(`/agenda/${session.id}`, { scroll: false })
+              }
+              key={index}
+              className={`p-2 md:p-4 cursor-pointer ${
+                index % 2 === 0
+                  ? "bg-secondary hover:bg-opacity-75 text-white"
+                  : "bg-white hover:bg-gray-50"
+              } transition-all duration-150 ease-in-out`}
+            >
+              <td className={`p-2 md:p-4 text-sm`}>
                 {session.timing.join(" - ")}
               </td>
               <td
-                className={`p-2 md:p-4 flex flex-col md:flex-row items-center gap-4 ${
-                  index % 2 === 0 ? "bg-white" : "bg-gray-50"
-                } hover:bg-gray-100 transition-all duration-150 ease-in-out`}
+                className={`p-2 md:p-4 flex flex-col md:flex-row items-center gap-4`}
               >
                 <div>
-                  <p className="font-bold text-lg">{session.title}</p>
-                  <p className="text-sm text-gray-500">
-                    {session.tag.join(", ")}
-                  </p>
-                  <p className="text-gray-600">{session.duration} mins</p>
-                  {/* <ul className="text-sm text-gray-700">
-                    {session.speakers.map((speaker, speakerIndex) => (
-                      <li key={speakerIndex}>
-                        {speaker.name} - {speaker.designation}
-                      </li>
-                    ))}
-                  </ul> */}
+                  <p className="font-bold">{session.title}</p>
+                  <p className="text-sm">{session.tag.join(", ")}</p>
+                  <p className="text-sm">{session.duration} mins</p>
                 </div>
               </td>
             </tr>

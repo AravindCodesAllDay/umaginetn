@@ -12,7 +12,9 @@ export default function Modal({ children }: { children: React.ReactNode }) {
   const onDismiss = useCallback(() => {
     setShowModal(false);
     setTimeout(() => {
-      router.push("/speakers", { scroll: false });
+      const baseRoute =
+        window.location.pathname.split("/").slice(0, -1).join("/") || "/";
+      router.push(baseRoute, { scroll: false });
     }, 100);
   }, [router]);
 
