@@ -18,21 +18,16 @@ export default function Sponsors() {
               {involve.title}
             </h3>
 
-            <div className="flex flex-wrap items-center gap-4 justify-center w-full">
+            <div className="flex flex-wrap items-center gap-8 justify-center w-full">
               {involve.sponsors.map((sponsor, sponsorIndex) => (
                 <div
-                  className="size-20 sm:size-32 md:size-40 relative"
+                  className="w-20 h-16 sm:w-32 sm:h-28 md:w-40 md:h-32 flex justify-center items-center bg-white rounded p-2"
                   key={sponsorIndex}
                 >
                   <Image
                     src={sponsor.photo}
                     alt={sponsor.name}
-                    fill
-                    sizes="(max-width: 640px) 80px, 
-                           (max-width: 768px) 100px, 
-                           (max-width: 1024px) 120px, 
-                           150px"
-                    className="object-contain hover:scale-105 transition-all duration-200 ease-in-out"
+                    className="w-full object-contain hover:scale-105 transition-all duration-200 ease-in-out"
                   />
                 </div>
               ))}
