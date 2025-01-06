@@ -1,7 +1,6 @@
-import sponsor1 from "@/public/sponsors/Tech-Mahindra-true color logo.png";
-import sponsor2 from "@/public/sponsors/Honeywell_Logo_RGB_Red.jpg";
-import sponsor3 from "@/public/sponsors/STL logo 2.png";
-import sponsor4 from "@/public/sponsors/Sterlite_Technologies_logo.jpg";
+import sponsor1 from "@/public/sponsors/Tech-Mahindra.png";
+import sponsor2 from "@/public/sponsors/Honeywell.png";
+import sponsor3 from "@/public/sponsors/sterlite-technologies.png";
 
 export const sponsors = [
   {
@@ -13,11 +12,7 @@ export const sponsors = [
     photo: sponsor2,
   },
   {
-    name: "STL",
-    photo: sponsor3,
-  },
-  {
     name: "Sterlite Technologies",
-    photo: sponsor4,
+    photo: sponsor3,
   },
 ];

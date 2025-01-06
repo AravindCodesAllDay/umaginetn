@@ -12,6 +12,7 @@ const config: Config = {
         social: "url('/socialmedia.jpg')",
         experience: "url('/bg12.jpg')",
         title: "url('/title.jpg')",
+        sponsor: "url('/sponsor_img.webp')",
       },
 
       animation: {
