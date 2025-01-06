@@ -8,7 +8,7 @@ export default function SchedulePage() {
   return (
     <>
       <Navbar />
-      <TitleBar header={"Schedule"} />
+      <TitleBar header={"Agenda"} />
       <Timings />
       <Footer />
       <ScrollUp />
