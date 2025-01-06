@@ -67,7 +67,6 @@ import speaker20 from "@/public/speakers/Debashis_Photo.jpg";
 import speaker72 from "@/public/speakers/Prashanth Doreswamy.jpeg";
 import speaker106 from "@/public/speakers/Tej Paul Bhatla.jpg";
 import speaker43 from "@/public/speakers/Mithun Sacheti.jpg";
-import speaker67 from "@/public/speakers/Neetan Chopra.jpg";
 import speaker60 from "@/public/speakers/Ms. Julia McCarthy.jpg";
 import speaker55 from "@/public/speakers/Mr. Steven Metzler.jpg";
 import speaker46 from "@/public/speakers/Mr. Debasis Panda.jpg";
@@ -82,7 +81,6 @@ import speaker89 from "@/public/speakers/Sai sethuraman.jpeg";
 import speaker57 from "@/public/speakers/Mr. Sunil Kumar - Pic.jpg";
 import speaker110 from "@/public/speakers/Vijayaraman subramanian.jpeg";
 import speaker113 from "@/public/speakers/Vishesh_Rajaram.jpeg";
-import speaker2 from "@/public/speakers/A S Lakshminarayanan.jpg";
 import speaker3 from "@/public/speakers/Abraham K -  Photo.jpg";
 import speaker4 from "@/public/speakers/Akhil Kapoor.jpg";
 import speaker5 from "@/public/speakers/Alagu Periyannan.jpg";
@@ -116,7 +114,6 @@ import speaker140 from "@/public/speakers/Katja Larsen Silverspoon.jpg";
 import speaker141 from "@/public/speakers/Krishna Mani.jpg";
 import speaker143 from "@/public/speakers/Krishnaveni S - NIQ.jpg";
 import speaker144 from "@/public/speakers/Kumar - Dexian photo.jpeg";
-import speaker145 from "@/public/speakers/Kumar Rangarajan.jpeg";
 import speaker146 from "@/public/speakers/Mr. Lakshmanan.jpg";
 import speaker147 from "@/public/speakers/Machaiah Kalengada - Photo.jpg";
 import speaker148 from "@/public/speakers/Manivannan Desicrew.jpeg";
@@ -126,7 +123,6 @@ import speaker152 from "@/public/speakers/Mayuran Palanisamy.jpg";
 import speaker153 from "@/public/speakers/Minu Agarwal.jpg";
 import speaker154 from "@/public/speakers/mohandass.jpg";
 import speaker155 from "@/public/speakers/Muthu Govindarajan Tiger Analytics.jpeg";
-import speaker156 from "@/public/speakers/Nagendra.jpg";
 import speaker157 from "@/public/speakers/Naren Sundaram.jpg";
 import speaker158 from "@/public/speakers/Naveen Chandra - Image.jpg";
 import speaker159 from "@/public/speakers/Nithya Subramanian - Pic.jpg";
@@ -1060,7 +1056,6 @@ export const eventSpeakers = [
     bio: "Krishna Mani holds the position of Director for Honeywell Technology Solutions Lab Pvt Ltd, Madurai and leads the global Sustainability Centre of Excellence. Prior to that he served as Senior Manager, Research and Development for the Hydroprocessing, Renewable Energy and Gas Processing development group in Honeywell Technology Solutions, Gurgaon. He has about 21 years of experience in refinery operations, process engineering design, and research and development in clean and sustainable fuels. He graduated in chemical engineering from University Department of Chemical Technology (UDCT, Mumbai). He holds 18 patents in clean, sustainable fuels and chemicals technology development.",
     photo: speaker141,
   },
-
   {
     id: "106",
     name: "Krishnaveni Singaram",
@@ -1076,14 +1071,6 @@ export const eventSpeakers = [
     role: "Vice President and Country Head",
     bio: "Kumar Rajagopalan exemplifies transformative leadership in his role as Vice President of Strategic Initiatives and Country Head at Dexian. With over 30 years of industry experience, Kumar has propelled Dexian into a global growth powerhouse, redefining the role of Global Capability Centers (GCCs) across international markets. His visionary strategy and pragmatic execution have driven exceptional innovation and operational excellence, positioning Dexian as a leader in its field. Kumar’s remarkable journey from finance to technology leadership underscores his adaptability and strategic insight. Initially a Chartered Accountant, he seamlessly transitioned into technology, leveraging his expertise to streamline enterprise solutions and system consolidations. His work has enhanced Dexian’s financial modeling and ERP systems, supported successful mergers, and solidified the company's market dominance. Beyond his corporate achievements, Kumar is deeply committed to Corporate Social Responsibility (CSR). His initiatives, such as the partnership with the Head Held High Foundation, address critical societal issues and empower marginalized communities. Kumar's human-centric approach fosters an inclusive and supportive work culture, balancing professional success with personal well-being. His leadership not only drives business excellence but also creates meaningful societal impact, making him a transformative force both within and beyond the corporate world.",
     photo: speaker144,
-  },
-  {
-    id: "108",
-    name: "Kumar Rangarajan",
-    company: "Slang Labs",
-    role: "co-founder & Obsessive Dictator",
-    bio: "Kumar Rangarajan is the co-founder & Obsessive Dictator @ Slang Labs. Their product, Conva.AI is the worlds easiest AI Agent building platform, that allows app developers to easily create reliable and multimodal AI agents that can be embedded into apps. Prior to Slang, Kumar co-founded Little Eye Labs in 2012, which was acquired by Facebook in 2014. He spent 3 yrs in Facebook Menlo Park office, before moving back to India to start Slang Labs. Prior to starting Little Eye Labs, Kumar worked in various companies including IBM, Rational Software, BlueCoat, S7 Software, HP and Wipro GE Medical Systems. A Chennaiite by heart, a Bengalorean by passport and is an ardent Illaiyraja fan",
-    photo: speaker145,
   },
   {
     id: "109",

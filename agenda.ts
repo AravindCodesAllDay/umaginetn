@@ -402,7 +402,7 @@ export const timing: Timing = {
         title: "Future-Ready Tamil Nadu: Scaling Emerging Tech Ecosystems",
         tag: ["Emerging technologies and their impact"],
         duration: 45,
-        speakers: ["106", "108", "70", "85", "534"],
+        speakers: ["106", "70", "85", "534"],
       },
       {
         id: "46",

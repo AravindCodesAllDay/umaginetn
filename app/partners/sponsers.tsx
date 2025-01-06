@@ -33,7 +33,7 @@ export default function Sponsors() {
           </svg>
         </div>
 
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-4 md:grid-cols-7 px-4">
+        <div className="grid grid-cols-2 gap-6 sm:grid-cols-4 px-4">
           {sponsors.map((sponsor, index) => (
             <Image
               key={index}

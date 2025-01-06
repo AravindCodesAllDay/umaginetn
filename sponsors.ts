@@ -1,38 +1,23 @@
-import sponsor1 from "@/public/sponsors/sponsor1.png";
-import sponsor2 from "@/public/sponsors/sponsor2.png";
-import sponsor3 from "@/public/sponsors/sponsor3.png";
-import sponsor4 from "@/public/sponsors/sponsor4.png";
-import sponsor5 from "@/public/sponsors/sponsor5.png";
-import sponsor6 from "@/public/sponsors/sponsor6.png";
-import sponsor7 from "@/public/sponsors/sponsor8.png";
+import sponsor1 from "@/public/sponsors/Tech-Mahindra-true color logo.png";
+import sponsor2 from "@/public/sponsors/Honeywell_Logo_RGB_Red.jpg";
+import sponsor3 from "@/public/sponsors/STL logo 2.png";
+import sponsor4 from "@/public/sponsors/Sterlite_Technologies_logo.jpg";
 
 export const sponsors = [
   {
-    name: "sponsor1",
+    name: "Tech Mahindra",
     photo: sponsor1,
   },
   {
-    name: "sponsor2",
+    name: "Honeywell",
     photo: sponsor2,
   },
   {
-    name: "sponsor3",
+    name: "STL",
     photo: sponsor3,
   },
   {
-    name: "sponsor4",
+    name: "Sterlite Technologies",
     photo: sponsor4,
-  },
-  {
-    name: "sponsor5",
-    photo: sponsor5,
-  },
-  {
-    name: "sponsor6",
-    photo: sponsor6,
-  },
-  {
-    name: "sponsor7",
-    photo: sponsor7,
   },
 ];
