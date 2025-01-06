@@ -456,7 +456,7 @@ export const eventSpeakers = [
   },
   {
     id: "36",
-    name: "Ms. Julia McCarthy",
+    name: "Julia McCarthy",
     company: "Federal Emergency Management Agency (FEMA)",
     role: "Deputy Director, Mitigation Division",
     bio: "With nearly 20 years of experience in flood risk management, Julia McCarthy has dedicated her career to providing technical assistance and collaborating with states and communities on flood hazard identification and mitigation. Currently serving as the Deputy Mitigation Division Director with FEMA Region 5, she prioritizes outreach to vulnerable populations, ensuring effective risk assessment and planning. Julia excels in translating complex floodplain management concepts for local officials and the public, fostering strong relationships to enhance community resilience. Her expertise encompasses both pre- and post-disaster floodplain management, and she actively coordinates with federal agencies to support communities in mitigating flood risks.",
@@ -464,7 +464,7 @@ export const eventSpeakers = [
   },
   {
     id: "37",
-    name: "Mr. Steven Metzler",
+    name: "Steven Metzler",
     company: "San Antonio River Authority",
     role: "Director, Water Resources",
     bio: "Steven Metzler is an experienced water resources professional with over 25 years in planning, design, and construction, specializing in the operation and maintenance of lakes and major rivers in Texas. His career as a public servant and engineering consultant has focused on building water supply and flood control infrastructure, including leading teams during major storm events for effective flood operations. Steven has successfully managed multi-million-dollar projects aimed at river remediation and water quality improvement, while also serving in emergency management roles. His extensive international experience includes collaboration on civil infrastructure projects and participation in national and international technical committees with organizations such as the American Water Works Association and the American Society of Civil Engineers.",
@@ -712,10 +712,10 @@ export const eventSpeakers = [
     photo: speaker4,
   },
   {
-    id: "69", //
+    id: "69",
     name: "Alagu Periyannan",
-    company: "Blue Jeans Network.Inc by Verizon, USA  ",
-    role: "Entrepreneur and Co-Founder",
+    company: "Blue Jeans Network.Inc by Verizon, USA ",
+    role: "Entrepreneur ",
     bio: "Alagu Periyannan has over 20 years of research, product development, and strategy experience bringing innovative networking and video products to market. Alagu Periyannan is the founder and the Director & Chief Technology Officer of Blue Jeans Network, Inc. which was founded in 2009.He previously worked as a Principal at Apple, Inc., Chief Technology Officer at Blue Coat Systems, Inc., Member at Entera, Inc., and Entrepreneur-in -Residence at Greylock Management Corp. He also served as an Entrepreneur -in -Residence at Norwest Venture Partners from 2007 to 2010. Mr.Periyannan completed his undergraduate degree at Birla Institute of Technology & Science and his graduate degree at North Carolina State University.",
     photo: speaker5,
   },
@@ -852,7 +852,7 @@ export const eventSpeakers = [
   },
   {
     id: "84", //
-    name: "Mr. Dinesh Arjun",
+    name: "Dinesh Arjun",
     company: "Raptee Motors",
     role: "Co-Founder & CEO",
     bio: "",
@@ -1177,6 +1177,14 @@ export const eventSpeakers = [
     photo: speaker158,
   },
   {
+    id: "253",
+    name: "Neelakantan Venkatraman",
+    company: "Tata Communications",
+    role: "VP",
+    bio: "",
+    photo: speaker,
+  },
+  {
     id: "118",
     name: "Nithya Subramanian",
     company: "Kellanova",
@@ -1479,6 +1487,14 @@ export const eventSpeakers = [
     role: "Distinguished Technologist",
     bio: "Mr. Subramanian Radhakrishnan is a Distinguished Technologist with Infosys, a thought leader and an innovator providing technology leadership to the fortune 500 clientele of Infosys mainly in the US, UK & Europe geographies. He has been driving digital transformational initiatives with a focus on simplifying client IT landscapes with more modern and cost-effective solutions with the application of highly scalable architecture leveraging Cloud, API and Automation. In his current role as an Account CTO for a financial group in the US, he is helping the bank transform to a fintech bank leveraging cloud- first approach with AI & Automation as core levers.Also, he evangelizes “AI - First” Approach to Infosys ‘clients by applying AI across the enterprise value chain to help them scale from POCs to production.He is a passionate speaker on emerging technology and AI.Has spoken in multiple conferences and have written whitepapers on topics like building highly scalable business workflows using a micro services architecture, how organizations can accelerate their digital transformation leveraging the public cloud at scale through automation first approach to name a few and have co-authored technology patents part of his work in Infosys.",
     photo: speaker045,
+  },
+  {
+    id: "560",
+    name: "Srinivas Lingam",
+    company: "Centrico-India Pvt. Ltd",
+    role: "CEO",
+    bio: "",
+    photo: speaker,
   },
   {
     id: "149",
