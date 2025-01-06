@@ -32,6 +32,17 @@ import speaker031 from "@/public/speakers/Dattatri Salagame.jpg";
 import speaker032 from "@/public/speakers/Jayakumar Doshi.jpg";
 import speaker033 from "@/public/speakers/Srinivas Rao.jpg";
 import speaker034 from "@/public/speakers/Sudish Panicker.jpg";
+import speaker035 from "@/public/speakers/Chandra Nandakumar.jpg";
+import speaker036 from "@/public/speakers/Dr. Anbuthambi B.jpg";
+import speaker037 from "@/public/speakers/Dr. C. Velan.jpg";
+import speaker038 from "@/public/speakers/Dr. Nandini Rangaswamy.jpg";
+import speaker039 from "@/public/speakers/Ms. Koel Chakrabarty.jpg";
+import speaker040 from "@/public/speakers/Pravin Swaminathan.jpg";
+import speaker041 from "@/public/speakers/Rupessh Goel.jpg";
+import speaker042 from "@/public/speakers/Sanjai Ranganathan.jpg";
+import speaker043 from "@/public/speakers/Shankar Venugopal.jpg";
+import speaker044 from "@/public/speakers/Shri Panneerselvam Madanagopal.jpg";
+import speaker045 from "@/public/speakers/Subramanian Radhakrishnan.jpg";
 
 import speaker1 from "@/public/speakers/Vishal Dhupar.jpg";
 import speaker10 from "@/public/speakers/Arvind Kumar STPI.jpg";
@@ -244,7 +255,7 @@ export const eventSpeakers = [
   },
   {
     id: "11",
-    name: "Sandeep Rai Rathore, IPS, DGP",
+    name: "Sandeep Rai Rathore, IPS",
     company: "Police Training Headquarters, Tamil Nadu Government",
     role: "DGP Training",
     bio: "Sandeep Rai Rathore is a distinguished officer of the Indian Police Service (IPS), known for his exceptional leadership and dedication to public safety. With years of experience in law enforcement, he has played a pivotal role in maintaining law and order, combating crime, and enhancing public security in various capacities. His strategic thinking, commitment to justice, and proactive approach to policing have earned him respect and recognition in the service. Throughout his career, Sandeep Rai Rathore has been involved in numerous high- profile initiatives and reforms aimed at strengthening the police force and improving community safety.His leadership is characterized by integrity, innovation, and a strong focus on building trust between law enforcement and the public.As an IPS officer, Sandeep continues to inspire and lead with a vision for a safer and more just society, making significant contributions to the development of law enforcement in India.",
@@ -260,7 +271,7 @@ export const eventSpeakers = [
   },
   {
     id: "13",
-    name: "Ms. Ipsita Dasgupta",
+    name: "Ipsita Dasgupta",
     company: "HP",
     role: "SVP & MD",
     bio: "Ipsita Dasgupta is a senior executive in digital media and sports, currently focused on growing an international digital app for entertainment and sports. Her work experience spans the US, China, India and Southeast Asia and across multiple sectors, including high-tech, digital, general industrials and consulting. In Dasgupta's previous role, she was the chief commercial officer of GE South Asia and Greater China. During her time there she was responsible for strategy, new products and solutions for emerging markets and GE India's top 20 strategic customer accounts across GE businesses. Deeply passionate about growing the market opportunity in emerging markets, Dasgupta was part of the global Chairman's Commercial Council, where she connected the best products and services with the most promising and fastest growing markets in the world. Prior to joining GE, Dasgupta was managing director of smart connected communities (emerging businesses). She focused on developing business opportunities in emerging markets in financial services, education and health care for the growing middle-class consumer segment in these markets. Dasgupta moved to Cisco from IBM, where she worked since 2002, spanning strategy, marketing and operational roles in the US and India. Some of her work included building and driving business strategies and practices for IBM’s global hardware, software and services businesses and creating and leading IBM’s global senior consulting center of competency in India.Dasgupta holds a bachelor’s degree in mathematics and economics from Columbia University and an MBA from the Harvard Business School. She has held positions on multiple nonprofit boards, including Harvard Business School Community Partners, Harvard Business School Alumni Association, Americares, Acumen Fund and Swades Foundation.",
@@ -276,7 +287,7 @@ export const eventSpeakers = [
   },
   {
     id: "15",
-    name: "Mr. Vishal Dhupar",
+    name: "Vishal Dhupar",
     company: "NVIDIA",
     role: "Managing Director, Asia South",
     bio: "Mr. Vishal Dhupar is the Managing Director for NVIDIA in South Asia, focusing on advancing the adoption of accelerated computing and AI across Indian enterprises. With over three decades of experience in the technology industry, he has led diverse teams throughout India and Asia. His career includes pivotal roles at DCM, Digital Equipment, SGI, Autodesk, Sun Microsystems, Symantec, and currently NVIDIA in India. His work has consistently propelled companies to the top of their sectors through innovation and results. Recognized by Analytics India Magazine as one of the 'Top 9 Indian Personalities in AI,' Mr. Dhupar's contributions extend to various organizations and advisory bodies such as the CII, IDGS, and the AI Committee for MeitY. He also serves as the Chairman of the Telangana AI Mission (T-AIM) and is an active member of the World Economic Forum’s AI Advisory Council in India. His past experience includes roles as Managing Director for Symantec in the India & SAARC Region, Managing Director at Autodesk Inc., Director of Sales at Sun Microsystems, Industry Sales Manager at Silicon Graphics Inc., National Sales Manager at Digital Equipment Corporation, and Territory Sales Manager at DCM Data Products in Bangalore.",
@@ -356,7 +367,7 @@ export const eventSpeakers = [
   },
   {
     id: "25",
-    name: "Mr. Srinivasagopalan Rangarajan",
+    name: "Srinivasagopalan Rangarajan",
     company: "Data Patterns",
     role: "Chairman & MD",
     bio: "Srinivasagopalan Rangarajan, is the Chairman and Managing Director of our Company. He has been associated with our Company since its incorporation. He holds a Bachelor’s Degree of Technology in Chemical Engineering from the A.C. College of Technology, University of Madras and a Master’s Degree in Science from the Indian Institute of Technology, Madras. He has over three decades of experience in business development, corporate affairs, finance and marketing. He has been the recipient of many awards including the Project Leader Award by the Project Management Association (PMA) in 2018, Silver Sticon 2019 by Raja Muthiah Mandram, Madurai as well as the Professional Excellence Award at the Corporate Governance Summit conducted by the Institute of Directors, Tamil Nadu region in 2019.",
@@ -372,7 +383,7 @@ export const eventSpeakers = [
   },
   {
     id: "27",
-    name: "Mr. Balaji Nuthalapadi",
+    name: "Balaji Nuthalapadi",
     company: "Citibank",
     role: "Managing Director & Head - South Asia Operations & Technology",
     bio: "Balaji started his career with Citi in 1997 in Chennai and has since worked in several assignments across markets in APAC and EMEA.  He has worked in various roles in wealth management  in Asia, India & the UK  for over 13 years. He was the Head of  Core Operations for Citibank India’s Consumer Banking Business during the period 2012-2016.  Balaji subsequently became Head – India Citi Solutions Centres. Citi has five such centers in India housed in a legal entity called Citicorp Services India Pvt. Ltd. with over 30,000 employees. Balaji took over as Head of South Asia Operations & Technology (O&T), effective May 2021. In this role, he leads O&T for South Asia (India, Bangladesh and Sri Lanka) and continues to provide governance and leadership oversight to the Citi Solutions Centers (CSCs) in India. Personal Interests: Actively involved in BFSI and GCC industry activities, championing DEI,  giving back to the community through mentorship, and partnering in initiatives in education and fintech Balaji has done his post-graduation from IIM Ahmedabad(1996).",
@@ -397,15 +408,15 @@ export const eventSpeakers = [
   },
   {
     id: "30",
-    name: "Mr .Prashanth Doreswamy",
+    name: "Prashanth Doreswamy",
     company: "Continental",
     role: "President & CEO",
-    bio: "",
+    bio: "Technology executive with a strong legacy of consistently achieving non-linear business growth, facilitating change management and leading organizational transformation across different business verticals and cultural paradigms. Extensive, in-depth domain knowledge spanning across Automotive electronics, User experience, Architecture & Networking, Safety & Motion, Smart & Autonomous mobility. Extensive experience in establishing Greenfield facilities, large scale ER&D centers, Operations Management, sales and Business Development teams from scratch; substantial international exposure leading teams with a diverse cultural/functional/geographic flavor ",
     photo: speaker72,
   },
   {
     id: "31",
-    name: "Mr. Anand Mohanram",
+    name: "Anand Mohanram",
     company: "Cooper India",
     role: "Managing Director",
     bio: "Mr. Anand Mohanram is the Managing Director of Mr. Cooper India (Global Capability Center), where he leads the organization’s operations, strategy, and growth initiatives. With extensive experience in the financial services and technology sectors, he plays a vital role in driving the company’s success and strengthening its global presence. In his leadership role, Mr. Mohanram focuses on enhancing operational efficiency, fostering innovation, and delivering exceptional value to customers. He oversees the development of strategic solutions that align with the company’s goals and meet the evolving needs of the mortgage and financial industry. Known for his strategic vision and people-centric leadership, Mr. Mohanram emphasizes collaboration, continuous learning, and a culture of excellence. Under his guidance, Mr. Cooper India has become a key contributor to the parent organization’s success by providing cutting-edge technology and operational support. Mr. Mohanram is passionate about mentoring teams and empowering them to reach their full potential. His dedication to building high-performing teams and driving sustainable growth has earned him recognition as a trusted leader. Through his efforts, Mr. Anand Mohanram continues to make a significant impact on Mr. Cooper India’s journey, ensuring the organization remains a leader in the global financial services industry.",
@@ -477,7 +488,7 @@ export const eventSpeakers = [
   },
   {
     id: "40",
-    name: "Mr. Debasis Panda",
+    name: "Debasis Panda",
     company: "TransUnion",
     role: "Head",
     bio: "Mr. Debasis Panda serves as the Head of TransUnion, where he leads with a vision to drive innovation and deliver value in the field of credit reporting and financial services. With extensive experience in the industry, Mr. Panda plays a crucial role in steering the organization's strategic direction, ensuring the delivery of accurate, reliable, and impactful data solutions. His leadership fosters collaboration across teams, enabling TransUnion to meet the dynamic needs of businesses and consumers alike. Mr. Panda is known for his expertise in data analytics, risk management, and digital transformation. He leverages his skills to enhance customer experience and provide insights that empower businesses to make informed decisions. Under his leadership, TransUnion has consistently adapted to emerging trends and technologies, reinforcing its position as a trusted leader in the industry. Committed to excellence, Mr. Panda emphasizes innovation, integrity, and growth as the core values driving his team's efforts. His ability to build strong partnerships and deliver results has made a significant impact on the organization’s success. Through his work, Mr. Debasis Panda continues to contribute to shaping the future of financial services, ensuring that TransUnion remains a key player in the evolving global marketplace.",
@@ -485,7 +496,7 @@ export const eventSpeakers = [
   },
   {
     id: "41",
-    name: "Mr. Kaushik Dey",
+    name: "Kaushik Dey",
     company: "Ericsson",
     role: "Head of Data Sciences and Quantum AI",
     bio: "Mr. Kaushik Dey is the Head of Data Sciences and Quantum AI at Ericsson Research. He leads a team of experts working on innovative solutions in the fields of data science, artificial intelligence (AI), and quantum computing. With his extensive knowledge and leadership skills, Kaushik Dey plays a crucial role in advancing technology to solve complex problems and create smarter networks. Under his guidance, the team explores cutting-edge technologies to improve telecommunications and enhance connectivity. They focus on building AI-powered tools that optimize network performance, enable faster decision-making, and drive automation. His work also involves researching quantum computing applications, which hold the potential to revolutionize data processing and problem-solving in the telecom sector. Mr. Kaushik Dey has a strong academic and professional background, making him a pioneer in his field. His vision is to merge data science and quantum computing to create innovative solutions that benefit businesses and society. As a leader, he inspires his team to push boundaries and contribute to the global technology landscape. His efforts align with Ericsson's mission to lead in connectivity and build a sustainable, intelligent future. Kaushik Dey’s work exemplifies the power of technology to transform industries and improve everyday life",
@@ -501,7 +512,7 @@ export const eventSpeakers = [
   },
   {
     id: "43",
-    name: "Mr. Hari Subramanian",
+    name: "Hari Subramanian",
     company: "Colruyt Group",
     role: "Managing Director",
     bio: "A business transformation leader with more than 25 years of experience spanning diverse industries and multiple geographies, Hari's entrepreneurial style of leadership and focus on people have enabled to build high-performing teams and sustainable organizations. As the Managing Director of Colruyt Group India, he is responsible for shaping the business strategy and development with accountability of business operations in IT, ITES, retail trade activities and VC investments from India. As a Partner for Korys Investments, he is involved in direct and fund investments in India. In 2017, he ventured into the renewable energy space, where he led the establishment of an independent power producing Company for the Group in India. Hari focuses on investment across sectors like Agri-tech, healthcare, renewable energy, financial services, and deep tech. He is an Investment Committee member in an impact fund and serves as a Board member in a few companies. Hari nurtures a deep connection towards projects concerning the education and empowerment of underprivileged communities. He is passionate about collaborating with ignited minds dedicated to bringing about positive changes within society and the environment. He is a strong advocate for climate action and sustainable business practices. He is fond of traveling and settled with his family in Hyderabad.",
@@ -563,14 +574,7 @@ export const eventSpeakers = [
     bio: "Mr. Kannan is a dynamic and result driven leader with over 25 years of experience in the IT industry spanning IT development, technology leadership, IT transformation and Global delivery. He has solid experience in transforming the organization to next-generation technologies and development approaches like Agile and DevOps.  He is an outstanding leader and mentor, spearheading initiatives that enhance employee satisfaction and ensure their needs are met, fostering a healthy work environment. He has assisted in establishing, operationalizing, and managing Comcast's technology captive center/Global Inhouse Center (GIC) in India.",
     photo: speaker015,
   },
-  {
-    id: "51",
-    name: "Mr A S Lakshminarayanan",
-    company: "Tata Communications",
-    role: "MD & CEO ",
-    bio: "A. S. Lakshminarayanan, the MD and Group CEO-Designate of Tata Communications, brings over 35 years of extensive leadership experience across various regions and industries. He has a proven track record of managing and developing scalable businesses, with a deep understanding of the global technology market and the evolving digital needs of enterprises. Before joining Tata Communications, Lakshmi served as President and CEO of Tata Consultancy Services Japan, Ltd., where he was instrumental in accelerating market opportunities and enhancing the brand's presence in the region. His other notable roles at TCS include Global Head of four P&L units—Telecom, Media & Information Services, HiTech, and Utilities—where he led these units to achieve a combined revenue of over $2.4 billion. Additionally, as Head of UK & Europe, he significantly grew the business, establishing TCS as a major IT player in the local market. Lakshmi's international experience spans the USA, Hong Kong, Australia, UK, Japan, and India. He holds a degree in Mechanical Engineering from BITS, Pilani, and is an alumnus of London Business School. He is also a long-standing member of IEEE.",
-    photo: speaker2,
-  },
+
   {
     id: "52",
     name: "Arindam Banerrji",
@@ -637,7 +641,7 @@ export const eventSpeakers = [
   },
   {
     id: "60",
-    name: "Mr. Girish Krishnamurthy",
+    name: "Girish Krishnamurthy",
     company: "Tata Medical and Diagnostics",
     role: "Managing Director and Chief Executive Officer",
     bio: "Girish Krishnamurthy is the Managing Director and CEO at Tata Medical and Diagnostics Ltd. (Tata MD). In addition, he steered several companies as Board of Director, Advisor and Mentor. Girish is AI Technology Specialist in Business Settings With over three decades of rich multi domain and entrepreneurial experience across key sectors like Healthcare, Software Products, Retail, IT Services, Skills, Education and Manufacturing. Girish has successfully led multiple transformational initiatives globally. Girish has led multiple businesses within the Tata group, and for the last 8 years, he has been revolutionizing healthcare through innovative models, technology, and patented products. Recently, Girish has been recognized as an expert in implementing AI technology in business settings. Girish is a recognized expert in applying AI technologies to businesses. He has architected various AI technologies, including Generative AI, Large Language Models (LLMs), Neural Language Models (NLMs), Robotics, and Machine Learning (ML). His AI-driven healthcare platform focuses on clinical workflow optimization, improving patient outcomes, and enhancing efficiency across the healthcare continuum. Girish holds an MBA from the University of Texas, Dallas, and a graduate in Electrical Engineering and in Mathematics from the University of Madras. ",
@@ -645,7 +649,7 @@ export const eventSpeakers = [
   },
   {
     id: "61",
-    name: "Mr. Sridhar Sidhu",
+    name: "Sridhar Sidhu",
     company: "AT&T",
     role: "CVP Blocking & Tackling",
     bio: "Sidhu leads Cyber Security Services Group at AT&T reporting in to the Global Chief Information Security Officer. Sidhu joined AT&T in June, 2024 Prior to joining AT&T, Sidhu served as Managing Director at Wells Fargo for a decade. Prior to Wells Fargo, Sidhu served as 'Risk Management Fellow (Banking and Securities)' at Deloitte. As Regional Leader of the Finance Risk Transformation Services practice of the firm, Sidhu led global M&A projects in the financial services sector. He holds multiple certifications in IT Risk Management and IT Governance. Sidhu is a regular keynote speaker and panel member on cyber security, innovation and financial services matters in India and abroad. He has been invited by global media organizations like The Economist, Economic Times, Financial Times, Information Security Media Group, Indian agencies like ASSOCHAM, FICCI, and global premier business Institutions like the IIMs and ISB for his expertise in the industry. Sidhu was awarded multiple industry awards for leadership in cybersecurity including Editor's Choice CISO of the year in 2018. Sidhu takes personal interest in coaching and mentoring women in middle management levels across India, Europe and the Americas.",
@@ -653,7 +657,7 @@ export const eventSpeakers = [
   },
   {
     id: "62",
-    name: "Mr. Sunil Kumar",
+    name: "Sunil Kumar",
     company: "World Bank",
     role: "Center Head",
     bio: "Mr. Sunil Kumar is the Center Head at the World Bank, where he leads key initiatives to support the organization’s global mission of reducing poverty and promoting sustainable development. With extensive experience in management and international development, he plays a vital role in driving operational efficiency and delivering impactful results. In his leadership role, Mr. Kumar oversees the center’s operations, ensuring alignment with the World Bank’s strategic goals. He works closely with teams to design and implement programs that address pressing global challenges, such as economic development, education, healthcare, and climate change. His ability to lead diverse teams and foster collaboration contributes significantly to the success of the center’s initiatives. Mr. Kumar is known for his problem-solving skills, strategic vision, and dedication to excellence. He emphasizes innovation, efficiency, and teamwork, inspiring his colleagues to achieve measurable outcomes that benefit communities around the world. Beyond his professional responsibilities, Mr. Kumar is passionate about mentoring and developing future leaders in the field of international development. His commitment to fostering a positive impact and empowering people aligns with the World Bank’s mission. Through his leadership, Mr. Sunil Kumar continues to strengthen the World Bank’s efforts to create sustainable solutions for global challenges.",
@@ -735,7 +739,7 @@ export const eventSpeakers = [
   },
   {
     id: "72",
-    name: "Mr. Aravind Ratnam",
+    name: "Aravind Ratnam",
     company: "Q-Ctrl",
     role: "Founder",
     bio: "Aravind is a seasoned strategy and product leader with over 20 years of experience in high-tech industries, including space instruments, quantum computing, lidar, and connected vehicles. He is currently the Chief Strategy Officer at Q-CTRL, a leading quantum software company that enables researchers, developers, and engineers to build stable, reliable quantum computers and quantum sensors. In his role, Aravind oversees strategy, revenue, product, and partnerships, working across Q-CTRL to deliver commercial and technical successes. He is passionate about driving innovation and growth in the quantum ecosystem, leveraging his expertise in system design, engineering, and management. He holds two Master's degrees in Space Science and Engineering and Management from Florida Tech and MIT, respectively.",
@@ -754,7 +758,7 @@ export const eventSpeakers = [
     name: "Arvind Srinivasan",
     company: "THRYVE Digital",
     role: "EVP & CFO",
-    bio: "",
+    bio: "Mr. Arvind Srinivasan is the Head of Finance and Business Management Office for Thryve Digital. He has held various senior positions across Finance and Commercial functions in India, Malaysia, Australia and USA. Prior to joining Thryve Digital, he was the Chief Financial Officer at Standard Chartered Scope Malaysia spanning more than 5000 employees. He brings exceptional expertise in Strategic Planning, Project Management & Delivery, Business Planning & Analysis for value creation, Financial Management & Control, and Risk Management As a leader, he is deeply committed to aligning with the business's purpose and consistently elevates the standards of his function. His leadership style is characterized by a clear vision and a strategic approach, ensuring that every initiative aligns with the organization's goals. His dedication to professional development and empowerment fosters a culture of excellence and high performance. He inspires his team to achieve their best and contribute to the organization's success. ",
     photo: speaker020,
   },
 
@@ -783,12 +787,28 @@ export const eventSpeakers = [
     photo: speaker029,
   },
   {
+    id: "51",
+    name: "Biswajit Panda",
+    company: "NielsenIQ",
+    role: "SVP, India Global Capability Center Head",
+    bio: "",
+    photo: speaker,
+  },
+  {
     id: "78",
     name: "Blair Koch",
     company: "Acertus Delivers",
     role: "CDO",
     bio: "Blair Koch is the dynamic CEO & President of ACERTUS, a leader in automotive logistics dedicated to redefining how vehicles are delivered across North America. With a focus on innovation, operational excellence, and customer-centric solutions, Blair drives ACERTUS’s mission to provide seamless, end-to-end vehicle logistics services. Under her leadership, the company continues to set new benchmarks in efficiency, technology integration, and service quality, transforming the automotive supply chain. With an impressive career spanning leadership roles in logistics, supply chain, and technology- driven operations, Blair is a trailblazer who thrives on tackling complex challenges.Her forward - thinking approach has positioned ACERTUS as a trusted partner in the automotive industry, delivering customized solutions that meet the evolving needs of clients.Blair’s commitment to innovation, teamwork, and execution ensures that ACERTUS stays ahead in a rapidly changing industry landscape.",
     photo: speaker16,
+  },
+  {
+    id: "656",
+    name: "Chandra Nandakumar",
+    company: "Tata Communications",
+    role: "AVP Delivery Head, Chennai Development Center Executive Council",
+    bio: "Currently Delivery Head for the Cloud & Infrastructure business in the EMEA for multiple Infosys business segments (financial services, healthcare, Insurance, Lifesciences, Retail, logistics,, with special focus on Communications, Media, Entertainment & Technology and Public cloud), A member of the $3bn Cloud & Infrastructure services business executive council and the Chennai Development center executive council. With infosys for the last 23+ years and has a deep industry experience of 28+ years, has global cultural exposure having engaged with clients across Europe, USA, Singapore, & UK.He has played various cross - functional leadership roles at Infosys in the hybrid cloud & infrastructure services, public cloud practice, cards and payments domain consulting, and the financial services industry. During the last five years, he has focused on Digital transformation space, applying Cloud, Devops & Open - source technologies.He is a life long learner, and has earned many Public Cloud industry certifications, including the Google Cloud professional architect certification.He has published his industry POV in numerous publications such as GTnews.com, & CIO.com. He has participated in the various industry events including CII Connect at Madurai during Oct 2024, and in IEEE event conducted at CEG, Chennai.A Computer Science & Engineering graduate from P.S.G College of technology, Coimbatore, he has completed the Infosys Executive educations program at Stanford.",
+    photo: speaker035,
   },
   {
     id: "79",
@@ -816,7 +836,7 @@ export const eventSpeakers = [
   },
   {
     id: "82",
-    name: "Mr. Daniel Jacob",
+    name: "Daniel Jacob",
     company: "EC Group International",
     role: "Senior Vice President – HR",
     bio: "Daniel Jacob is a seasoned HR Thought leader with over two decades of experience at EC Group International, where he serves as Senior Vice President of HR. He has developed effective employee engagement strategies that have positively influenced workplace culture. He is the recipient of awards such as the Global Humanitarian Award by the World Humanitarian Drive, UK, and the HR Leader of the Year 2023 by The Economic Times. His efforts in social work have reached over one million people, addressing needs in education, employment, and community development. Daniel co-founded HR Lens, a consortium focused on socially responsible HR leadership, and leads initiatives through the You Are Loved Foundation. He also serves as Managing Trustee at Little Lambs School, emphasizing education and empowerment. His work bridges the fields of HR and social responsibility, highlighting the role of leadership in creating meaningful impact.",
@@ -839,6 +859,22 @@ export const eventSpeakers = [
     photo: speaker22,
   },
   {
+    id: "531",
+    name: "Dr. Anbuthambi B",
+    company: "Larsen & Toubro",
+    role: "Head – Strategy, L&T Edutech",
+    bio: "Dr B Anbuthambi is a seasoned leader with over 25 years of experience in Education, Skilling, Edtech, and Technology industries. Currently serving as the Head of Strategy & Partnerships at L&T EduTech within the Larsen & Toubro Group, Dr. Anbuthambi oversees critical areas such as strategy formulation, partnerships, marketing, and product incubation. Successfully led ICT Academy as Past President, transforming it into one of India's largest PPP social enterprises focused on bridging the industry-academia skill gap. Recognized for expertise in fostering collaboration between Industry, Academia, and Government to develop the next generation talent pool. Recipient of the prestigious 'Power to Empower' award in the National Skill Enterprise Challenge by NSDC and CII.Possesses a comprehensive educational background, including a Bachelor’s degree in Computer Application, a Master’s in Business Administration, and a Post- Graduation in Business Management from XLRI, Jamshedpur, where he ranked third in his batch.Completed a PhD in Management with a focus on employability skills, showcasing dedication to advancing knowledge in the field.Actively involved as a member of Governing Councils and Academic Councils in prestigious Higher Education Institutions across India. Published author in both national and international publications, including contributions to notable books such as 'India in 2047' and 'Post Pandemic Graduate. A sought - after public speaker, Dr.Anbuthambi has delivered thought - provoking talks on education, skill development, technology and future of work in over 500 platforms.",
+    photo: speaker036,
+  },
+  {
+    id: "532",
+    name: "Dr. C. Velan",
+    company: "CEEBROS",
+    role: "CEO",
+    bio: "Dr C. Velan is currently working as CEO in CEEBROS Group, Chennai since April 2024. He was working as City Head – Chennai Operations at Ascendas India (CapitaLand India) for over 10 years and as ED & CEO for Tata Realty Infrastructure Limited for its flagship development Ramanujan IT City in Chennai for over 10 years. He is also working as Professor of Practice at Anna University now. He is also Executive Board member in Indian Green Building Council which promotes Green Buildings and Carbon neutral initiatives. ",
+    photo: speaker037,
+  },
+  {
     id: "85",
     name: "Dr. Dhinakaran Vinayagamurthy",
     company: "IBM Quantum",
@@ -855,6 +891,14 @@ export const eventSpeakers = [
     photo: speaker26,
   },
   {
+    id: "533",
+    name: "Dr. Nandini Rangaswamy",
+    company: "Cognizant Foundation",
+    role: "Director",
+    bio: "Dr. Nandini Rangaswamy is the Managing Director of the Chandra Group of Companies, and Chairperson of the GRG Institutions in Coimbatore, Tamil Nadu. As the Managing Director of the Chandra Group of Companies, with over 1,000 employees, she manages diverse businesses including textiles and automotive. As the Chairperson of the GRG Educational Institutions, she chairs 10 centres of academic excellence, from primary and secondary schooling to doctoral programmes and beyond with 13,000+ students. Her deep passion and compassionate eye for the underprivileged and her contribution to improving academic standards, women empowerment and philanthropic endeavours has been an inspiration to many.Besides her active role in business and education, she has been deeply involved in rendering laudable service to society and for the promotion of human welfare as a philanthropist. As the Chairperson of the 65-year - old GRG Group of Educational Institutions, Dr.Nandini has been instrumental in women’s empowerment and in providing opportunities for less - privileged sections of society.The PSGR Krishnammal College for Women, the flagship Institution of GRG, has been ranked #6 among colleges in the country in the NIRF 2022 list of the government of India.Over 125,000 girls have so far benefited from education provided by the GRG Institutions in Coimbatore. As Chairperson of the Coimbatore Branch of the Indian Red Cross Society, she has pioneered many new initiatives to help the needy.As the Joint District Director of the Women's Voluntary Service (WVS) in Coimbatore since 2002, Dr. Nandini has helped in enlisting women volunteers to work for the progress of the poor and marginalised sections of the society. She is the Secretary of the Coimbatore District Welfare Association, focusing on providing care for senior citizens, including a Senior Citizens Day Care Centre. Dr.Nandini is actively engaged with the Nilgiris Biosphere Nature Park(NBNP), a 90-acre Botanical Garden near Coimbatore, focusing on conservation, education and research of the fauna and flora of the Nilgiris Biosphere Reserve(NBR). She has been closely associated with the activities of the Confederation of Indian Industry(CII) as the Chairperson of the Tamil Nadu State Council, Chairperson of the National Higher Education Conclave, Chairperson of the Southern Region Education Sub- Committee, Chairperson of the Coimbatore Zone, and Chairperson of Southern Region of CII IWN(Indian Women Network).She was the Chairperson of the Education Committee of CII Southern Region and Co - Chair of the CII National Council Task Force on Rural Development and Migrant Labour.She is currently Deputy Chairperson for CII Southern Region for the year 2023 – 24. Dr.Nandini also serves as a Director on the boards of many companies and as a Trustee on the boards of many not -for-profit organisations.",
+    photo: speaker038,
+  },
+  {
     id: "87",
     name: "Dr. Senthil Sambandam",
     company: "Phanes Biotech",
@@ -863,8 +907,16 @@ export const eventSpeakers = [
     photo: speaker95,
   },
   {
+    id: "534",
+    name: "Dr. Thyagarajan T",
+    company: "VIT Chennai Campus",
+    role: "Pro-Vice Chancellor",
+    bio: "",
+    photo: speaker,
+  },
+  {
     id: "88",
-    name: "Viveka Kalidasan",
+    name: "Dr. Viveka Kalidasan",
     company: "River Venture Studio",
     role: "Founder and CEO",
     bio: "Dr. Viveka Kalidasan is a visionary technopreneur and innovator, recognized as one of MIT’s 35 Innovators Under 35, Singapore's Top 100 Women in Technology, and an NUS Outstanding Young Alumni. She is the pioneering Founder and CEO of River Venture Studio, the world’s first and only inclusive Industry 5.0 accelerator and startup studio. Backed by Enterprise Singapore, River Venture Studio supports startups from across the globe and has launched the first social media platform uniting the global Industry 5.0 community. Under Dr.Viveka's leadership, River Venture Studio champions inclusivity, sustainability, human-centricity, and resilience, empowering robotics, automation, and digital transformation. She ensures that the startup C-suites foster diversity, creating a collaborative environment that values different perspectives. The unique selling proposition (USP) of River Venture Studio lies in facilitating pilot opportunities for startups with potential clients, helping them scale globally. As one of the pioneers of the venture studio model in APAC, Dr. Viveka continues to make a significant impact in the ecosystem. In addition to her work at River, Dr.Viveka is the Founder and CEO of The Edify Project, a one- stop venture - building partner serving startups, academia, corporates, and individuals.Headquartered in Singapore, Edify specializes in launching multinational brands and startups in APAC while managing end - to - end operations, lead generation, and client acquisition. She spearheaded the creation of Let - Lab, the innovation lab of Ultra Clean Holdings Inc. (UCT), in Singapore.Backed by Enterprise Singapore, Let - Lab established Singapore’s Industry 4.0 ecosystem within a year.Dr.Viveka achieved this remarkable feat while navigating her pregnancy and maternity, empowering startups that address unmet needs in the semiconductor Industry 4.0 space. As a dedicated innovator, Dr.Viveka has developed and commercialized patient - centric deeptech medical devices, with a particular focus on FemTech solutions.Her expertise spans R & D, clinical and regulatory pathways, and the commercialization of medtech.Her groundbreaking translational research on wireless sensing(WiSe) sutures was published in the prestigious Nature Biomedical Engineering and featured on the October 2021 cover.It was also spotlighted in Nature News and Views(https://lnkd.in/g3PBGgfw). Passionate about education and mentorship, Dr.Viveka is a mentor to startups, venture creation programs, and aspiring talents, fostering the next generation of innovators. Outside of her professional achievements, she is a fitness enthusiast, a globetrotter, an avid reader, and a light political observer.Dr.Viveka is always open to connecting via LinkedIn, over coffee or tea, or most simply, with a smile.",
@@ -872,7 +924,7 @@ export const eventSpeakers = [
   },
   {
     id: "89",
-    name: "Ms. Eva James",
+    name: "Eva James",
     company: "Renault Nissan Technology & Business Centre India",
     role: "Vice President - IS/IT",
     bio: "s. Eva James is the Vice President of IS/IT at Renault Nissan Technology, where she leads the organization’s information systems and technology strategies. With extensive experience in the IT industry, she plays a pivotal role in driving innovation, ensuring operational efficiency, and supporting the company’s digital transformation initiatives. In her leadership role, Ms. James oversees the development and implementation of advanced technology solutions that align with business goals. She focuses on improving processes, enhancing system performance, and ensuring data security across the organization. Her expertise helps Renault Nissan Technology stay ahead in a competitive and rapidly evolving industry. Ms. James is known for her strategic thinking and problem-solving skills, which enable her to address complex challenges effectively. She is deeply committed to fostering collaboration among teams, promoting a culture of continuous improvement, and encouraging the adoption of emerging technologies. Under her guidance, Renault Nissan Technology has successfully implemented IT solutions that enhance productivity and drive business growth. Her vision and dedication to excellence make her a key contributor to the company’s success. Through her work, Ms. Eva James continues to make a significant impact in the field of information systems and technology, ensuring Renault Nissan Technology remains a leader in innovation and performance.",
@@ -880,7 +932,7 @@ export const eventSpeakers = [
   },
   {
     id: "90",
-    name: "Mr. Furhan Ahmed",
+    name: "Furhan Ahmed",
     company: "Gabriel",
     role: "Global Chief Information Officer",
     bio: "Mr. Furhan Ahmed serves as the Global Chief Information Officer (CIO) of Gabriel Inc., a renowned leader in innovative technology solutions. With a career spanning over two decades, he has established himself as a visionary in digital transformation, spearheading initiatives that drive growth and innovation. His expertise lies in harnessing emerging technologies to deliver strategic business outcomes, ensuring organizations stay ahead in a competitive landscape. As the Global CIO, Mr. Ahmed oversees Gabriel Inc.'s IT strategy, ensuring seamless integration of advanced technologies to enhance operational efficiency and customer experience. Under his leadership, the company has achieved significant milestones in adopting cutting-edge solutions, reinforcing its position as a market leader. Mr. Ahmed will be a key figure at the UMAGINE 2025 event, where he will share his insights on the future of technology and its role in shaping industries. His presence underscores the event's commitment to fostering innovation and collaboration among global leaders. Beyond his professional achievements, Mr. Ahmed is passionate about mentoring young talents and contributing to the tech community. His forward-thinking approach and dedication to excellence make him an inspiring leader in the digital era.",
@@ -888,9 +940,9 @@ export const eventSpeakers = [
   },
   {
     id: "91",
-    name: "Mr. G. Sundarrajan",
-    company: "",
-    role: "",
+    name: "G. Sundarrajan",
+    company: "TANGEDCO",
+    role: "Member, Poovulagin Nanbargal & Member Tamil Nadu Governing Council for Climate Change and Advisor- Promotion for New Energy and Energy Efficieny, ",
     bio: "G Sundarrajan is largely known for his environmental activism through Poovulagin Nanbargal, of which he is a volunteer coordinator. For living, he runs Digital Solutions and Robotics Companies. Sundarrajan has been part of many environmental Initaitives across Tamil Nadu, including campaigns on Climate Change, safe foods and against nuclear plants in Koodankulam. Poovulagin Nanbargal is actively involved in Taking the awareness about Climate Change to various strata of People.Conducted climate meets with various Elected Representatives, Leaders of Political Parties, Different Social movements and Youth.Successfully conduted “Youth and Climate” and reached out to more than 1,00,000 students across different schools, colleges and youth Clubs.Being the Governing Council Member actively involved in Setting Climate Goals in terms of Mitigation, adaptation and building resilience pathways for the state of Tamil Nadu.Activists of Poovulagin Nanbargal including Sundarrajan have strived hard for several decades to change the narrative about environmentalism in Tamil Nadu – making it people- centric.In doing so, the organization has been able to sustain the momentum around environmental activism in Tamil Nadu.This has directly or indirectly resulted in several political parties taking cognizance of environmental issues in the State.Poovulagin Nanbargal along with the community took care of the legal battle against different issues that would jeopardize the Environment.Sundarrajan has written three books in Tamil on environmental issues in the State. Sundarrajan is also part of the editorial team of Poovulagu magazine – a monthly magazine that covers a wide range of issues including eco - politics, eco - economics, Organic farming, water issues, creative works with a focus on environmental safety, students section, Q & A and contemporary issues. As an alternative magazine, Poovulagu reaches out to a fair number of audience, receiving wide acclamation and creating positive impact. Worked in various platforms for promoting environmental consciousness and awareness among public. Created wide spread awareness against nuclear energy in various places and worked with different groups working against Nuclear reactors in Kalpakkam and Koodankulam. Part of the solidarity committee for the “People’s movement against Nuclear Energy”. Written and debated across various popular journals like India - Today, Vikatan and popular television channels against Nuclear Energy. Has spoken in various school, colleges and seminars and in popular television channels about environment. He was adjudged as “Top 10 persons” by the popular Tamil media group “Anaanada Vikatan” in the year 2012 and was awarded “Nambikkai Tamizhan” award by Puthiyathalaimurai Channel. Worked as part of the SFA against Bt - Brinjal Published three books in Tamil. Member of State Planning Commission’s Working Group for Preparation of Policy for Augmenting Water Resources.",
     photo: speaker24,
   },
@@ -913,7 +965,7 @@ export const eventSpeakers = [
 
   {
     id: "94",
-    name: "Mr. Hemant Tulsian",
+    name: "Hemant Tulsian",
     company: "Fidelity Investments",
     role: "Vice President",
     bio: "Hemant Tulsian is a Vice President at Fidelity Investments. He is currently leading the quality functions within the financial services domain and is the site leader for operations in Chennai. He is a Chartered Accountant with over 23 years of experience in audit, taxation, internal controls, managing operations across multiple locations globally. Specialization includes developing offshoring strategies, setting up & scaling of Global Competency Center operations and creating resiliency sites.He embraces the use of emerging technologies in operations and champions the automation of controls to mitigate risks.Hemant is a Toastmaster, Speaker and a career coach. He is the founding president of the Chennai Loudspeakers toastmaster club. He is an active member of NASSCOM GCC chapter. He has been associated with a non-profit organization for more than 2 decades, supporting the cause of education for under privileged children.",
@@ -937,7 +989,7 @@ export const eventSpeakers = [
   },
   {
     id: "97",
-    name: "Mr. Jibu Elias",
+    name: "Jibu Elias",
     company: "Mozilla Foundation",
     role: "AI Ethicist",
     bio: "Mr. Jibu Elias is an AI Ethicist at the Mozilla Foundation, where he works to ensure that artificial intelligence (AI) technologies are developed and used in a fair, responsible, and ethical way. With expertise in AI and ethics, he plays a key role in guiding the development of AI systems that prioritize human rights, privacy, and transparency. In his role, Mr. Elias focuses on addressing the ethical challenges that come with the growing use of AI in various industries. He works to promote AI that is inclusive, unbiased, and respects individual freedoms. He collaborates with teams to create frameworks and policies that ensure AI technologies benefit society while minimizing potential risks. Mr. Elias is known for his ability to analyze complex ethical issues and provide practical solutions. He advocates for transparency in AI decision-making processes and ensures that AI systems are built with accountability and fairness in mind. Through his work at the Mozilla Foundation, Mr. Elias helps shape the future of AI by promoting ethical standards that prioritize the well-being of all individuals. His contributions are essential in building trust and confidence in AI technologies, ensuring they are used responsibly and for the greater good of society.",
@@ -995,7 +1047,7 @@ export const eventSpeakers = [
 
   {
     id: "104",
-    name: "Ms. Katja Larsen",
+    name: "Katja Larsen",
     company: "Silverspoon  Consultancy",
     role: "Chief Executive Officer",
     bio: "Katja Larsen is a renowned expert in ESG strategies and the CEO of Silverspoon Consultancy. With over two decades of leadership experience across Europe and the Asia Pacific, she has driven transformative initiatives at the crossroads of sustainability, innovation, and technology. Her expertise spans diverse industries, where she skilfully integrates ESG principles with advanced technological solutions to foster business transformation and organisational excellence. At Silverspoon Consultancy, Katja is committed to guiding organisations through the complexities of ESG by leveraging the power of technology and innovation. She excels in utilising data-driven insights and cutting-edge tools to promote sustainable growth, strengthen operational resilience, and create responsible enterprises. Her strategic approach ensures that businesses achieve their sustainability goals while respecting cultural nuances and maintaining a competitive edge in today’s dynamic global market. In addition to her role at Silverspoon Consultancy, Katja serves as an Independent Director at Carysil, a publicly listed company in Gujarat known for manufactoring and exporting premium kitchen and bathroom appliances to the EU, US, and UK. In Carysil, she contributes with her expertise in ESG and sustainable innovation to strengthen Carysil’s global impact. Recognised as a mentor for the G20 Women Entrepreneurship Platform (WEP) under NITI Aayog, Katja is deeply engaged in initiatives that empower female leaders and entrepreneurs. As a respected thought leader, she frequently speaks at international conferences and workshops, sharing her insights on the circular economy, sustainable innovation, female leadership, and the pivotal role of technology in shaping the future of responsible business practices.",
@@ -1003,7 +1055,7 @@ export const eventSpeakers = [
   },
   {
     id: "105",
-    name: "Mr. Krishna Mani",
+    name: "Krishna Mani",
     company: "Honeywell",
     role: "Honeywell Madurai Site Leader and Director",
     bio: "Krishna Mani holds the position of Director for Honeywell Technology Solutions Lab Pvt Ltd, Madurai and leads the global Sustainability Centre of Excellence. Prior to that he served as Senior Manager, Research and Development for the Hydroprocessing, Renewable Energy and Gas Processing development group in Honeywell Technology Solutions, Gurgaon. He has about 21 years of experience in refinery operations, process engineering design, and research and development in clean and sustainable fuels. He graduated in chemical engineering from University Department of Chemical Technology (UDCT, Mumbai). He holds 18 patents in clean, sustainable fuels and chemicals technology development.",
@@ -1051,6 +1103,14 @@ export const eventSpeakers = [
     photo: speaker147,
   },
   {
+    id: "535",
+    name: "Madhanraj Jeyapragasam",
+    company: "Infosys Limited",
+    role: "AVP - Senior Principal Technology Architect",
+    bio: "",
+    photo: speaker,
+  },
+  {
     id: "111",
     name: "J.K Manivannan",
     company: "DesiCrew Solutions",
@@ -1093,6 +1153,14 @@ export const eventSpeakers = [
     photo: speaker154,
   },
   {
+    id: "536",
+    name: "Ms. Koel Chakrabarty",
+    company: "Sterlite Technologies",
+    role: "CTO",
+    bio: "",
+    photo: speaker039,
+  },
+  {
     id: "116",
     name: "Muthu Govindarajan",
     company: "Tiger Analytics",
@@ -1100,10 +1168,9 @@ export const eventSpeakers = [
     bio: "Muthu is an accomplished leader with over 20 years of experience in Data Engineering, Data Science, and AI, specializing in building Data Warehouses, Big Data platforms, and Cloudbased ecosystems. Currently serving as the Partner and Practice Head for Data Engineering at Tiger Analytics, Muthu has spearheaded major initiatives in AWS, GCP, and Enterprise Data Management. He has held pivotal roles at Cognizant, including leading the Big Data Center of Excellence and overseeing the BigDecisions product. With a strong background in delivering large-scale data solutions for global clients, Muthu is passionate about driving technological innovation and building high-performing teams",
     photo: speaker155,
   },
-
   {
     id: "117",
-    name: "MR. Naveen Chandra",
+    name: "Naveen Chandra",
     company: "91 Film Studios",
     role: "Founder and CEO",
     bio: "Naveen Chandra has over 30 years of experience in strategic and leadership positions in Media across Films, TV, Radio, Print and Digital mediums in India and International markets. He is the Founder and CEO of 91 Film Studios and of Mumbai Movie Studios that focuses on production, marketing and distribution of regional language feature films. Earlier he had launched The Storytellers Fund as a SEBI registered CAT-II AIF(Alternate Investment Fund) to provide structured capital to regional language feature film industry. He has so far produced successful feature films in Marathi, Malayalam, Bengali and Punjabi languages and distributed films in Tamil and Telugu. In his professional career he has helped launch, acquire, build and market marquee brands like Times Of India, Radio Mirchi, Times Now, Movies Now, ET Now, ZoOm, Willow TV and Gaana.com. A computer engineering gold medallist, Naveen has been a speaker, columnist and panellist at various industry forums on media and films. Naveen is an author and an avid reader with a collection of over 2500 books. He has lived in 16 Indian cities and has travelled to over 55 countries on 5 continents, and is a certified advanced open water swimmer, deep sea scuba diver, half marathoner, cyclist, motor cyclist and likes soccer & technology. He is also a qualified screenplay writer.",
@@ -1111,11 +1178,19 @@ export const eventSpeakers = [
   },
   {
     id: "118",
-    name: "Ms. Nithya Subramanian",
+    name: "Nithya Subramanian",
     company: "Kellanova",
     role: "Head of Data and Analytics",
     bio: "Nithya Subramanian is a Global Leader in Data & Analytics, who comes with 21 years of rich industry experience. She has enabled business excellence for organizations through analytics & digital transformation to drive operational efficiencies, cost optimization, expansion of revenue streams and improved customer satisfaction. She has successfully executed progressive strategies towards building scalable & sustainable AI & Analytics solutions for empowering business teams with data driven decisions and has propagated data literacy, data culture and open innovation across organizations. Her ability to foster collaboration, inspire cross-functional teams and commitment towards diversity & inclusion has resulted in the successful implementation of transformative IT initiatives.",
     photo: speaker159,
+  },
+  {
+    id: "537",
+    name: "Nirmalya Chatterjee",
+    company: "Nemetschek Group",
+    role: "Country VP",
+    bio: "",
+    photo: speaker,
   },
   {
     id: "119",
@@ -1143,7 +1218,7 @@ export const eventSpeakers = [
   },
   {
     id: "122",
-    name: "Mr. Prabhu Rangarajan",
+    name: "Prabhu Rangarajan",
     company: "M2P Fintech",
     role: "Co-Founder",
     bio: "Prabhu Rangarajan, aka Prabhu, co-founded M2P Fintech in 2014. Prabhu drives operations strategy, new product development, compliance, and end-to-end information security in his role as COO at M2P. A space tech enthusiast and an expert in program management, Prabhu specializes in building secure and seamless interoperable payment platforms. He believes startups are the real game changers that challenge the status quo to drive efficiencies. Before co-founding M2P, he led technology teams at Cognizant and Verizon Data Services. In 2021, he was named in the Business World’s BW Disrupt 40 Under 40 list.",
@@ -1151,7 +1226,7 @@ export const eventSpeakers = [
   },
   {
     id: "123",
-    name: "Mr. Pradeep John",
+    name: "Pradeep John",
     company: "",
     role: "Tamilnadu Weathermen",
     bio: 'Pradeep John, widely known as the "Tamil Nadu Weatherman," is a passionate meteorologist and a trusted voice when it comes to weather forecasting in Tamil Nadu. With a deep interest in understanding climate patterns and the science of weather, Pradeep has become a popular figure for his accurate and timely weather predictions. Through his engaging social media presence and in-depth analyses, he has helped thousands of people stay informed and prepared for changing weather conditions across the state. Pradeep’s expertise goes beyond just forecasting; he is a strong advocate for weather awareness, disaster preparedness, and the role of accurate meteorology in supporting communities. His contributions have earned him recognition as one of the most reliable weather forecasters in the region. Through his work, Pradeep continues to educate and empower the public, fostering a better understanding of weather and its impact on daily life.',
@@ -1167,7 +1242,7 @@ export const eventSpeakers = [
   },
   {
     id: "125",
-    name: "Mr. Prasanna Venkatesan",
+    name: "Prasanna Venkatesan",
     company: "Petavue",
     role: "Managing Partner",
     bio: "",
@@ -1175,7 +1250,7 @@ export const eventSpeakers = [
   },
   {
     id: "126",
-    name: "Mr .Prashanth Krishnan",
+    name: "Prashanth Krishnan",
     company: "Highbrow Interactive",
     role: "Co-founder and COO",
     bio: "Prashanth Krishnan is the co-founder and COO of Highbrow Interactive, a leading game development studio based in Chennai. With over 12 years of experience in the gaming industry, Prashanth has been instrumental in creating many popular mobile games, such as Indian Train Simulator, that have collectively reached over 100 million players worldwide. At Highbrow, he leads the creative vision, overseeing the art, game design, and managing key publisher relationships. His expertise and passion for the craft have been pivotal in shaping the studio's success and innovation in the mobile gaming space. Currently, Prashanth is focused on the global launch of a new idle tycoon game, driving Highbrow’s next phase of growth and innovation.",
@@ -1190,8 +1265,16 @@ export const eventSpeakers = [
     photo: speaker167,
   },
   {
+    id: "538",
+    name: "Pravin Swaminathan",
+    company: "Tata Agratas",
+    role: "VP",
+    bio: "Pravin Swaminathan is an esteemed leader with a multifaceted career that spans Product management, Sales, Business development, Program delivery, and Technical engineering. He has extensive experience in creating and launching customer-facing Connected Cloud-enabled products, especially in the automotive and software sectors. He has notable experience delivering connected car solutions at Bosch, Harman, and Stellantis. Pravin excels in Technology product development and Global team management, adeptly driving strategy, market execution, and operations.With a keen interest in artificial intelligence, he leverages data and AI to foster innovation and growth.His leadership of cross- functional teams across various continents has resulted in strong collaboration and outstanding outcomes. As an advocate for applying technology to solve business challenges and uncover new opportunities, Pravin brings a unique perspective to his work.He is proudly from Tamil Nadu, accomplished his Engineering from Chennai and an Alumni of IIM Bengaluru.In his current position at Tata Agratas, he is building the foundations of Data and AI to deliver efficient Energy and Storage solutions.",
+    photo: speaker040,
+  },
+  {
     id: "128",
-    name: "Mr. Raghuveeran Sowmyanarayanan",
+    name: "Raghuveeran Sowmyanarayanan",
     company: "Wipro",
     role: "AI Global Delivery Head",
     bio: "Raghuveeran Sowmyanarayanan (Raghu) [AI Global Delivery Head, Wipro Limited] brings over 30 years of extensive experience in program management, delivery management, sales and strategy, and account management. Recognized for his thought leadership in AI and analytics, Raghu has been instrumental in driving innovative solutions and strategies in multiple domains. Leveraging the latest advancements in AI and Gen AI, Raghu is trying to create AI strategies and cutting-edge solutions. He is also infusing AI in SDLC, Clients pain areas and business facing domain solutions by taking advantage of AI/Gen AI. He kickstarted TDWI India chapter in 2006 and also have published more than 30 articles in various international magazines/websites. Raghu is also spearheading Ethical AI Practices for ensuring all AI and Gen AI initiatives adhere to the highest Responsible AI standards and establish practices & guidelines.",
@@ -1199,7 +1282,7 @@ export const eventSpeakers = [
   },
   {
     id: "129",
-    name: "Mr. Rahul Sasi",
+    name: "Rahul Sasi",
     company: "CloudSEK",
     role: "Co-Founder & CEO",
     bio: "Rahul Sasi is an accomplished cybersecurity entrepreneur, thought leader, and innovator, recognized globally for his expertise in predicting and mitigating cyber threats. He is the Co-Founder and CEO of CloudSEK, a leading cybersecurity firm specializing in leveraging AI-driven platforms to predict, analyze, and counter emerging cyber risks. Under Rahul's leadership, CloudSEK has become a trusted partner for Fortune 500 companies, governments, and enterprises worldwide, offering cutting-edge solutions that proactively identify threats to digital assets. With over a decade of experience in cybersecurity, Rahul has authored numerous research papers and is a prominent speaker at prestigious global conferences, including Black Hat, DEF CON, and RSA. He is known for his contributions to vulnerability research, threat intelligence, and pioneering innovations in the field of cyber risk quantification. Rahul is passionate about fostering a safer digital ecosystem and has been instrumental in mentoring startups and cybersecurity professionals. His work continues to shape the future of cybersecurity, blending technology, intelligence, and foresight to combat ever-evolving cyber challenges. ",
@@ -1215,7 +1298,7 @@ export const eventSpeakers = [
   },
   {
     id: "131",
-    name: "Mr. Rajasekaran P",
+    name: "Rajasekaran P",
     company: "Bahwan CyberTek",
     role: "Chief Product Officer",
     bio: "With close to three and half decades of experience in the IT sector, Raj as Chief Products Officer (CPO) heads the Product Engineering Division at Bahwan CyberTek.In the role of CPO, Raj spearheads the development of BCT’s flagship products in the Predictive Analytics, Metro Rail and Digital Supply Chain Management space. He is instrumental in the adoption of cutting- edge technologies into BCT’s flagship IP products. Under his leadership, a number of niche industry solutions have been delivered based on the award - winning Predictive Analytics platform, retina360, the digital supply chain management suite, CueTrans and midas360 the Metro Rail Intelligent Analytics.While retina360 streamlines and optimizes Operations and Maintenance of energy and utilities organizations, CueTrans digitalizes the entire supply chain, providing real - time monitoring of assets and resources and midas360 handles subsystem predictive analytics of a metro rail system.A passionate advocate of futuristic technologies and design thinking, Raj strongly believes that only an integrated and sustainable approach to solution - building can deliver transformational value to customers. Prior to BCT, Raj had worked with organizations like Mahindra Satyam, Ramco Systems and Tata Electric R & D in various capacities and has handled product development, embedded and real - time applications and large - scale ODC Services.He had been part of Bluetooth protocol developmentwith Intel Labs and Motorola in the USA. Raj holds a Master’s Degree in Finance from the Pondicherry University and a Bachelor ofTechnology in Electronics from MIT, Chennai.He is a certified PMP, a trained Six Sigma Black Belt and a certified Global Business Leader from U21 Singapore.He has also done Executive Management Programs from the ISB University and the Kellogg School of Management.",
@@ -1223,7 +1306,7 @@ export const eventSpeakers = [
   },
   {
     id: "132",
-    name: "Mr. Rajasekharan Sankaralingam",
+    name: "Rajasekharan Sankaralingam",
     company: "Movate",
     role: "SVP & Global Head of Sales Enablement and Client Solutions",
     bio: "With over 30 years of experience across fields such as sales enablement, client-centric solutions, delivery and account management, Rajasekharan Sankaralingam is the Senior Vice President & Global Head of Sales Enablement and Client Solutions at Movate. In this role, he is responsible for leading large-scale programs and delivery units, optimizing pre-sales solutions efforts, refining pricing strategies, and delivering customized client solutions tailored to business needs. Rajasekharan also plays a key role in contract negotiations, business process design, and solution identification, consistently enhancing deal qualifications and win rates.His expertise includes building new engagement models to meet client needs, streamlining processes, and driving actionable insights across the organization. Prior to Movate, Rajasekharan held leadership roles at Infosys, American Express, Bank International Indonesia and Canara Bank, where his operational excellence and strategic insights earned the trust of corporate decision- makers and led to impactful contributions across various domains.",
@@ -1262,12 +1345,28 @@ export const eventSpeakers = [
     photo: speaker176,
   },
   {
+    id: "539",
+    name: "Rupessh Goel",
+    company: "First Citizens India",
+    role: "Head - Credit",
+    bio: "Mr. Rupessh Goel is Head of Credit at First Citizens. He is a thought leader, a mentor and an advisor. Rupessh is a sought-after speaker at industry events, sharing his insights on startup ecosystems, growth strategies, innovation, and leadership. As the Head of Credit at First Citizens India, Rupessh leads the organization’s credit capabiltiy and plays a key role in shaping its strategic direction. Prior to his current role, he was Senior Vice President at HSBC, where he led a global team of over 1, 100 employees across 4 countries.He also has held key roles at prestigious institutions like Barclays, Bank of America Merrill Lynch, ICICI, and HDFC. His leadership is further backed by an MBA, a Six Sigma Black Belt certification, and a Global Business Leader Program qualification from the London School of Economics.",
+    photo: speaker041,
+  },
+  {
     id: "137",
     name: "Sai Sudha Chandrasekaran",
     company: "Synergy India Ventures",
     role: "Chief Business Officer & FDI Investor Expert",
     bio: "Sai Sudha is the Chief Business Officer and Industry Expert on FDI manufacturing in India at Synergy India Ventures. She previously headed the FDI under the Make in India program at Invest India (Ministry of Commerce, New Delhi) for the APAC. During her stint, she was also the head of coordination for governments of South-India where she has handled multiple clients from across the world for the South-Indian states Her current firm, Synergy India Ventures is a first-of-its-kind FDI advisory and turnkey project implementation firm for FDI investors looking to enter or expand in India. They help clients end-to-end in setting up their factories. Invest India is the National Investment Promotion and facilitation agency under the Ministry of Commerce, Govt of India. She has vast experience in handling investors across key sectors including Electronics, Semi-con, Textiles, Footwear, Renewable energy, Chemicals etc. Her goal is to showcase India’s opportunities & potential and enable them to successfully execute in India. Sai Sudha has represented India in >100 international forums and regularly consulted several Heads of Missions and CXOs on their India entry plans. She has the honour of leading and executing high profile business roundtables for Hon.PM Shri Narendra Modi and for Hon.Commerce Minister of India, Shri. Piyush Goyal in various countries. Sai Sudha is passionate nation building advocate and has rich experience from operations, strategy, investments and marketing across start-ups to national level organisations. She was in USA & HK for 10 yrs and returned to serve in India in 2019. She graduated with a gold medal from her PGPM degree at Great Lakes Institute of Management. She has also completed her Management Consulting course from Harvard University",
     photo: speaker177,
+  },
+  {
+    id: "540",
+    name: "Sanjai Ranganathan",
+    company: "Larsen & Toubro",
+    role: "Chief Executive - L&T EduTech",
+    bio: "Sanjai Ranganathan is the Chief Executive (CE) of L&T EduTech. With over 27 years of business success at national and international levels, Ranganathan has demonstrated expertise in incubating and growing new businesses. He possesses a strong global experience gained from working in India, Singapore and the United States, collaborating closely with Fortune 500 customers. Ranganathan holds a Master of Business Administration in Systems & Marketing, and he has completed a Management Certificate Program from Harvard Business School of Management.Prior to his current role at L & T EduTech, he held various positions at HCL Technologies, where he focused on the Media, Publishing and Education verticals across India and the US.In his most recent role as Vice President - Sales & Solutions(EdTech) at HCL, he played a pivotal role in driving growth and achieving remarkable success in the EdTech industry.",
+    photo: speaker042,
   },
   {
     id: "138",
@@ -1279,7 +1378,7 @@ export const eventSpeakers = [
   },
   {
     id: "139",
-    name: "Mr. Sathya Nellore Sampath ",
+    name: "Sathya Nellore Sampath ",
     company: "BoldCap ",
     role: "Managing Partner",
     bio: "",
@@ -1292,6 +1391,22 @@ export const eventSpeakers = [
     role: "Founder",
     bio: "Prof. Dr. Satya Chakravarthy, Founder CEO The ePlane Company Satya is founder CEO of The ePlane Company, a new generation EVTOL startup incubated in IIT Madras Research Park. Satya is a Professor of Aerospace Engineering at the Indian Institute of Technology Madras (IITM), Chennai, India. He received his Bachelor of Technology degree in Aerospace Engineering in 1991 from IIT Madras, and went to obtain his Master of Science in Aerospace Engineering degree in 1992 and Doctor of Philosophy in 1995, both from the Georgia Institute of Technology, Atlanta, GA, USA. After a post-doctoral stint at Georgia Tech, he joined the faculty of Aerospace Engineering at IIT Madras in 1997. He is also behind several startups including Agnikul Cosmos, where he is a director.",
     photo: speaker180,
+  },
+  {
+    id: "541",
+    name: "Shankar Venugopal",
+    company: "Mahindra & Mahindra",
+    role: "VP",
+    bio: "",
+    photo: speaker043,
+  },
+  {
+    id: "542",
+    name: "Shri Panneerselvam Madanagopal",
+    company: "MeitY Startup Hub, MeitY, Government of India",
+    role: "CEO",
+    bio: "",
+    photo: speaker044,
   },
   {
     id: "141",
@@ -1358,11 +1473,19 @@ export const eventSpeakers = [
     photo: speaker033,
   },
   {
+    id: "543",
+    name: "Subramanian Radhakrishnan",
+    company: "Infosys Limited",
+    role: "Distinguished Technologist",
+    bio: "Mr. Subramanian Radhakrishnan is a Distinguished Technologist with Infosys, a thought leader and an innovator providing technology leadership to the fortune 500 clientele of Infosys mainly in the US, UK & Europe geographies. He has been driving digital transformational initiatives with a focus on simplifying client IT landscapes with more modern and cost-effective solutions with the application of highly scalable architecture leveraging Cloud, API and Automation. In his current role as an Account CTO for a financial group in the US, he is helping the bank transform to a fintech bank leveraging cloud- first approach with AI & Automation as core levers.Also, he evangelizes “AI - First” Approach to Infosys ‘clients by applying AI across the enterprise value chain to help them scale from POCs to production.He is a passionate speaker on emerging technology and AI.Has spoken in multiple conferences and have written whitepapers on topics like building highly scalable business workflows using a micro services architecture, how organizations can accelerate their digital transformation leveraging the public cloud at scale through automation first approach to name a few and have co-authored technology patents part of his work in Infosys.",
+    photo: speaker045,
+  },
+  {
     id: "149",
     name: "Sudish Panicker",
     company: "BNY India",
     role: "MD & Global Head",
-    bio: "",
+    bio: "With over two decades of industry expertise, Mr.Sudish has made significant contributions in financial services, service delivery management, off-shoring, outsourcing, and GCC management. He is a thorough professional and a great leader with a progressive and innovative mindset. He currently oversees BNY’s International operations in India, encompassing investment services, operations, risk & compliance, finance, and HR.His profound knowledge and strategic mindset propelled most at BNY Mellon to achieve remarkable results. As the past Chair of Nasscom, GCC Pune and an active member of the GCC National Council, he has played a pivotal role in shaping the strategic direction and fostering collaboration within the Global Capability Centers community.",
     photo: speaker034,
   },
   {

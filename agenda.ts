@@ -372,7 +372,7 @@ export const timing: Timing = {
     hallA: [
       {
         id: "42",
-        timing: ["10:30 AM", "11:15 AM"],
+        timing: ["10:00 AM", "11:00 AM"],
         title:
           "Future-proofing the Workspace - Skilling and Scaling for Deep technologies",
         tag: ["AI"],
@@ -381,7 +381,7 @@ export const timing: Timing = {
       },
       {
         id: "43",
-        timing: ["11:25 AM", "12:15 PM"],
+        timing: ["11:10 AM", "12:15 PM"],
         title:
           "Beyond Chennai:: Building Emerging Tech Hubs for Tamil Nadu's Next Wave of Growth",
         tag: ["Development of secondary tech hubs"],
@@ -440,13 +440,12 @@ export const timing: Timing = {
     ],
     hallB: [
       {
-        id: "50",
-        timing: ["10:30 AM", "11:15 AM"],
-        title:
-          "From TN to the Globe - Beyond Borders Expanding Tamil Nadu's Digital Workforce",
-        tag: ["Talent development", "Scaling Operations and global outreach"],
-        duration: 45,
-        speakers: ["104", "81", "153", "107"],
+        id: "58",
+        timing: ["10:00 AM", "10:45 AM"],
+        title: "Hyperlocal Marketplaces - Future of Economy",
+        tag: [""],
+        duration: 30,
+        speakers: ["92", "117"],
       },
       {
         id: "51",
@@ -466,12 +465,13 @@ export const timing: Timing = {
         speakers: [],
       },
       {
-        id: "53",
+        id: "50",
         timing: ["12:30 PM", "01:15 PM"],
-        title: "Making AI Real - The Infra",
-        tag: ["AI Infrastrusture"],
+        title:
+          "From TN to the Globe - Beyond Borders Expanding Tamil Nadu's Digital Workforce",
+        tag: ["Talent development", "Scaling Operations and global outreach"],
         duration: 45,
-        speakers: ["49", "134", "51", "15", "44"],
+        speakers: ["104", "81", "153", "107"],
       },
       {
         id: "54",
@@ -509,12 +509,20 @@ export const timing: Timing = {
     ],
     hallC: [
       {
-        id: "58",
+        id: "102",
         timing: ["10:00 AM", "10:30 AM"],
-        title: "Hyperlocal Marketplaces - Future of Economy",
-        tag: [""],
+        title: "AI-Driven Economic Growth in India",
+        tag: ["AI Infrastrusture"],
         duration: 30,
-        speakers: ["92", "117"],
+        speakers: [],
+      },
+      {
+        id: "53",
+        timing: ["10:40 AM", "11:15 AM"],
+        title: "Making AI Real - The Infra",
+        tag: ["AI Infrastrusture"],
+        duration: 35,
+        speakers: ["49", "134", "51", "15", "44"],
       },
       {
         id: "59",
@@ -568,7 +576,7 @@ export const timing: Timing = {
       },
       {
         id: "65",
-        timing: ["03:10 PM", "03:40 PM"],
+        timing: ["03:10 PM", "04:00 PM"],
         title: "Adoptions of AI and impact in consulting",
         tag: ["AI"],
         duration: 30,
@@ -578,7 +586,7 @@ export const timing: Timing = {
     hallD: [
       {
         id: "66",
-        timing: ["10:30 AM", "11:15 PM"],
+        timing: ["10:00 AM", "10:45 AM"],
         title:
           "Driving Innovation and Resilience: The Role of GCC's in Shaping the Future of BSI",
         tag: ["GCC BFSI"],
@@ -587,12 +595,21 @@ export const timing: Timing = {
       },
       {
         id: "67",
-        timing: ["11:25 AM", "12:15 PM"],
+        timing: ["10:55 AM", "11:40 AM"],
         title:
           "Future-Proofing Global Healthcare: The Strategic Vision of GCC Leadership",
         tag: ["GCC"],
         duration: 45,
         speakers: ["115", "59", "28"],
+      },
+      {
+        id: "100",
+        timing: ["11:45 AM", "12:15 PM"],
+        title:
+          "Digital Public Infrastructure for Fintech, Innovation and Inclusion",
+        tag: ["Fintech"],
+        duration: 30,
+        speakers: [],
       },
       {
         id: "68",
@@ -636,15 +653,24 @@ export const timing: Timing = {
       },
       {
         id: "73",
-        timing: ["03:15 PM", "03:45 PM"],
+        timing: ["03:10 PM", "03:40 PM"],
         title: "Cybersecurity in the age of AI",
         tag: [""],
         duration: 30,
         speakers: ["22"],
       },
       {
+        id: "101",
+        timing: ["03:45 PM", "04:05 PM"],
+        title:
+          "Positioning India as a Global AI Powerhouse: Strategies for Leadership and Innovation",
+        tag: [""],
+        duration: 30,
+        speakers: [],
+      },
+      {
         id: "74",
-        timing: ["04:15 PM", "05:15 PM"],
+        timing: ["04:30 PM", "05:30 PM"],
         title: "Valedictory Section",
         tag: ["All Tracks"],
         duration: 60,
