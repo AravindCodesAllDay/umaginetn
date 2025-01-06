@@ -714,12 +714,11 @@ export const eventSpeakers = [
   {
     id: "69",
     name: "Alagu Periyannan",
-    company: "Blue Jeans Network.Inc by Verizon, USA ",
-    role: "Entrepreneur ",
+    company: "Blue Jeans Network.Inc by Verizon, USA",
+    role: "Entrepreneur in contemplation",
     bio: "Alagu Periyannan has over 20 years of research, product development, and strategy experience bringing innovative networking and video products to market. Alagu Periyannan is the founder and the Director & Chief Technology Officer of Blue Jeans Network, Inc. which was founded in 2009.He previously worked as a Principal at Apple, Inc., Chief Technology Officer at Blue Coat Systems, Inc., Member at Entera, Inc., and Entrepreneur-in -Residence at Greylock Management Corp. He also served as an Entrepreneur -in -Residence at Norwest Venture Partners from 2007 to 2010. Mr.Periyannan completed his undergraduate degree at Birla Institute of Technology & Science and his graduate degree at North Carolina State University.",
     photo: speaker5,
   },
-
   {
     id: "70",
     name: "Anand Kapoor",
