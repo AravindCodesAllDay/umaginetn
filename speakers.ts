@@ -203,9 +203,9 @@ export const eventSpeakers = [
   },
   {
     id: "5",
-    name: "S. Krishnan",
-    company: "Secertary for MeiTY Government of India",
-    role: "IAS",
+    name: "S. Krishnan IAS",
+    company: "Government of India",
+    role: "Secertary for MeiTY",
     bio: "Krishnan, an esteemed Indian Administrative Service (IAS) officer, currently serves as the Secretary of the Ministry of Electronics and Information Technology (MeitY). With extensive experience in governance, policy formulation, and technology-driven initiatives, Krishnan plays a pivotal role in shaping India’s digital future. He is instrumental in overseeing the development and implementation of policies that promote technological innovation, enhance digital infrastructure, and foster a robust digital economy in India.",
     photo: speaker88,
   },
