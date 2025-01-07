@@ -22,6 +22,7 @@ import sponsor22 from "@/public/sponsors/Qualcomm.png";
 import sponsor23 from "@/public/sponsors/sterlite-technologies.png";
 import sponsor24 from "@/public/sponsors/L&T.jpg";
 import sponsor25 from "@/public/sponsors/Citi.png";
+import sponsor26 from "@/public/sponsors/hindu.png";
 
 export const sponsors = [
   {
@@ -152,6 +153,15 @@ export const sponsors = [
       {
         photo: sponsor7,
         name: "Daily Hunt",
+      },
+    ],
+  },
+  {
+    title: "Print Media Partner",
+    sponsors: [
+      {
+        photo: sponsor26,
+        name: "the hindu",
       },
     ],
   },
