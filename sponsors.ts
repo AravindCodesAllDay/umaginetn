@@ -15,7 +15,6 @@ import sponsor14 from "@/public/sponsors/tcs.png";
 import sponsor15 from "@/public/sponsors/vit.png";
 import sponsor16 from "@/public/sponsors/wipro.png";
 import sponsor17 from "@/public/sponsors/hexaware.png";
-import sponsor18 from "@/public/sponsors/railtel.png";
 import sponsor19 from "@/public/sponsors/Tech-Mahindra.png";
 import sponsor20 from "@/public/sponsors/sbi.png";
 import sponsor21 from "@/public/sponsors/ict.png";
@@ -114,10 +113,6 @@ export const sponsors = [
       {
         photo: sponsor4,
         name: "L&T",
-      },
-      {
-        photo: sponsor18,
-        name: "railtel",
       },
       {
         photo: sponsor23,
