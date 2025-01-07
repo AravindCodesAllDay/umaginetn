@@ -27,7 +27,7 @@ export default function Sponsors() {
                   <Image
                     src={sponsor.photo}
                     alt={sponsor.name}
-                    className="w-full object-contain hover:scale-105 transition-all duration-200 ease-in-out"
+                    className="w-full h-full object-contain hover:scale-105 transition-all duration-200 ease-in-out"
                   />
                 </div>
               ))}
