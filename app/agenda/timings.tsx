@@ -129,6 +129,7 @@ export default function Timings() {
                           onClick={() => router.push(`/speakers/${speaker.id}`)}
                           src={speaker.photo}
                           alt={speaker.name}
+                          title={speaker.name}
                           className="w-8 h-8 rounded-full object-cover cursor-pointer hover:scale-105 hover:opacity-75 transition-all duration-150 ease-in-out"
                         />
                       ))}
