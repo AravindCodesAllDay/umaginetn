@@ -168,6 +168,7 @@ import speaker198 from "@/public/speakers/Vijay Srinivasan.jpg";
 import speaker199 from "@/public/speakers/Mr. Vivek Raghavan.jpg";
 import speaker200 from "@/public/speakers/Vivek Rajah.jpg";
 import speaker405 from "@/public/speakers/govinda-rao.png";
+import speaker0102 from "@/public/speakers/Navneet.jpg";
 
 export const eventSpeakers = [
   {
@@ -1683,7 +1684,7 @@ export const eventSpeakers = [
     company: "Atria Convergence Technologies Limited",
     role: "COO",
     bio: "",
-    photo: speaker,
+    photo: speaker0102,
   },
   {
     id: "414",
