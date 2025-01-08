@@ -26,7 +26,7 @@ import sponsor26 from "@/public/sponsors/hindu.png";
 
 export const sponsors = [
   {
-    title: "Co-Host Partner",
+    title: "Co-Host",
     sponsors: [
       {
         photo: sponsor13,
