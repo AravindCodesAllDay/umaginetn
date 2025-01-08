@@ -167,6 +167,7 @@ import speaker197 from "@/public/speakers/Vijia Raghavan.jpg";
 import speaker198 from "@/public/speakers/Vijay Srinivasan.jpg";
 import speaker199 from "@/public/speakers/Mr. Vivek Raghavan.jpg";
 import speaker200 from "@/public/speakers/Vivek Rajah.jpg";
+import speaker405 from "@/public/speakers/govinda-rao.png";
 
 export const eventSpeakers = [
   {
@@ -234,6 +235,14 @@ export const eventSpeakers = [
     photo: speaker05,
   },
   {
+    id: "405",
+    name: "M Govinda Rao IAS",
+    company: "TneGA",
+    role: "CEO",
+    bio: "Mr. Govinda Rao is an Indian Administrative Service (IAS) officer of 2011 batch serving in Government of Tamil Nadu. Currently Serving as Director of e-Governance and CEO of Tamil Nadu e Governance Agency. With a reputation for effective leadership and dedication, he has held key administrative positions including Project Director for World Bank funded TN Health Systems Project, MD for Chennai Smart City Ltd, MD TN Urban Habitat Development Board and District Collector Thanjavur, contributing to the state’s development across various sectors.Mr. Govinda Rao has been instrumental in driving transformative e-governance projects in areas such as, education, Health and Social welfare. His efforts have significantly enhanced service delivery mechanisms, ensuring transparency and efficiency in public administration.",
+    photo: speaker405,
+  },
+  {
     id: "9",
     name: "Arvind Kumar",
     company: "STPI",
@@ -276,8 +285,8 @@ export const eventSpeakers = [
   {
     id: "14",
     name: "Sopnendu Mohanty",
-    company: "Singapore Government",
-    role: "Chief Fintech Officer, MAS & Group Head",
+    company: "Global Finance Technology Network",
+    role: "Chief Fintech Officer, Monetary Authority of Singapore and CEO Designate",
     bio: "Sopnendu Mohanty is the Chief FinTech Officer at the Monetary Authority of Singapore (MAS), where he leads efforts to drive the development and adoption of financial technologies (FinTech) in Singapore and beyond. With a deep expertise in technology and finance, Sopnendu has played a key role in positioning Singapore as a global FinTech hub. He is known for his strategic vision in fostering innovation, building a conducive regulatory environment, and promoting collaboration between financial institutions, tech companies, and startups. Under his leadership, MAS has launched several initiatives to strengthen Singapore’s digital economy, enhance financial inclusion, and support the growth of the FinTech ecosystem.Sopnendu's work continues to shape the future of finance, making a significant impact on the financial sector both locally and globally. With a passion for digital transformation, he is widely regarded as a thought leader and visionary in the world of FinTech.",
     photo: speaker98,
   },
@@ -507,6 +516,14 @@ export const eventSpeakers = [
     photo: speaker23,
   },
   {
+    id: "403",
+    name: "Mr Ramakrishnan Ramanathan",
+    company: "Renault Group",
+    role: "VP-Born Electric Vehicle, New Mobility",
+    bio: "",
+    photo: speaker,
+  },
+  {
     id: "43",
     name: "Hari Subramanian",
     company: "Colruyt Group",
@@ -547,7 +564,7 @@ export const eventSpeakers = [
     photo: speaker028,
   },
   {
-    id: "48", //
+    id: "48",
     name: "Ambika Natrajan",
     company: "HCLTech",
     role: "SVP",
@@ -676,7 +693,7 @@ export const eventSpeakers = [
     photo: speaker021,
   },
   {
-    id: "65", //
+    id: "65",
     name: "Manu Iyer",
     company: "Bluehill Capital",
     role: "Managing Partner",
@@ -812,6 +829,14 @@ export const eventSpeakers = [
     role: "Consul General of the Republic of Korea",
     bio: "",
     photo: speaker030,
+  },
+  {
+    id: "402",
+    name: "Christophe Bramoulle",
+    company: "",
+    role: "Deputy CG, Head of the Bureau de France",
+    bio: "",
+    photo: speaker,
   },
   {
     id: "80",
@@ -1586,5 +1611,86 @@ export const eventSpeakers = [
     role: "Counsel",
     bio: "With a noteworthy legal career that spans nearly 15 years, Vivek Raja is an accomplished Advocate in the Republic of India and a Barrister in England & Wales (n.p.). His professional expertise covers a broad spectrum of legal areas, including Corporate Commercial Disputes, White-Collar Crimes, Mergers & Acquisitions, Regulatory Affairs and Constitutional matters, reflecting his versatility as a Legal Practitioner. As with his practice areas, his clientele ranges from Ultra High Net Worth Individuals and Temple Trusts to State-Owned Enterprises and Corporate Groups. His unique blend of experience in Mergers & Acquisitions, Private Equity, Venture Capital Investments and Dispute Resolution positions him as a well-rounded legal professional who delivers comprehensive solutions to his Clients. His unwavering commitment to justice and a track record of success make him a trusted and effective Advocate in the legal landscape. Additionally, his varied interests in entrepreneurship, animal welfare, social causes and in preserving protecting, and promoting the rich cultural heritage of India makes him a well-rounded professional and a keen student of life.",
     photo: speaker200,
+  },
+  {
+    id: "400",
+    name: "Mr Basker Deveraj",
+    company: "Tech Mahindra",
+    role: "Metaverse Practice Head, Innovation Cluster",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "406",
+    name: "Jagannath",
+    company: "LTImindtree",
+    role: "Global DPO",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "407",
+    name: "Yogesha Aralaquppe Ramegowda",
+    company: "Honeywell",
+    role: "AI leader and Fellow",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "408",
+    name: "Dr Sobha Lalitha devi",
+    company: "AU-KBC, Anna University",
+    role: "Program Director",
+    bio: "",
+    photo: speaker,
+  },
+
+  {
+    id: "409",
+    name: "Senthil Nathan",
+    company: "Ailaysa Technologies",
+    role: "CEO",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "410",
+    name: "Ravanan N",
+    company: "Dailyhunt",
+    role: "Executive Director",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "411",
+    name: "Christoper S",
+    company: "Department of Defence R&D",
+    role: "Chairman, DRDO & Secretary",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "412",
+    name: "Varun Prakash",
+    company: "McKinsey & Company",
+    role: "Partner",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "413",
+    name: "Navneet Sharma",
+    company: "Atria Convergence Technologies Limited",
+    role: "COO",
+    bio: "",
+    photo: speaker,
+  },
+  {
+    id: "414",
+    name: "Prabakaran Murugaiah",
+    company: "Mayu AI",
+    role: "Founder",
+    bio: "",
+    photo: speaker,
   },
 ];
