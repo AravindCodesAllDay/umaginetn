@@ -154,20 +154,20 @@ export const timing: Timing = {
       },
       {
         id: "17",
-        timing: ["02:00 PM", "02:30 PM"],
+        timing: ["02:00 PM", "02:15 PM"],
         title: "TN Startups - 3 Journeys",
         tag: ["Tech Startup Ecosystem"],
-        duration: 30,
-        speakers: ["140", "84", "125"],
+        duration: 15,
+        speakers: ["140", "84", "125", "63"],
       },
       {
         id: "18",
-        timing: ["02:30 PM", "03:30 PM"],
+        timing: ["02:15 PM", "03:30 PM"],
         title:
           "The Role of private equity in taking TN startups national  and global",
         tag: ["Tech Startup Ecosystem"],
-        duration: 60,
-        speakers: ["20", "23", "65", "139", "33", "84", "125"],
+        duration: 75,
+        speakers: ["20", "65", "139", "33", "84", "125"],
       },
       {
         id: "19",
