@@ -169,6 +169,11 @@ import speaker199 from "@/public/speakers/Mr. Vivek Raghavan.jpg";
 import speaker200 from "@/public/speakers/Vivek Rajah.jpg";
 import speaker405 from "@/public/speakers/govinda-rao.png";
 import speaker0102 from "@/public/speakers/Navneet.jpg";
+import speaker0103 from "@/public/speakers/Jagannath.jpg";
+import speaker0104 from "@/public/speakers/Sobha.jpeg";
+import speaker0105 from "@/public/speakers/Varun Prakash.jpg";
+import speaker0106 from "@/public/speakers/Yogesh.jpg";
+import speaker0107 from "@/public/speakers/Senthil Nathan.jpg";
 
 export const eventSpeakers = [
   {
@@ -1169,7 +1174,7 @@ export const eventSpeakers = [
     name: "Ms. Koel Chakrabarty",
     company: "Sterlite Technologies",
     role: "CTO",
-    bio: "",
+    bio: "Koel has 27+ years of industry experience, broadly divided into System Integrator (STL), Telecom vendor (Ericsson & Cisco) and Telecom Operator (Tata Communication) organizations. She has worked in widely varied leadership profiles and technology areas ranging across wireless & wireline domains, covering generations of fixed mobile technology : 5G, 4G-EPC,3G and 2G core, Cloud, RON, Data Center, End-End transport networks including IP/MPLS, Metro Ethernet, Optical & Microwave, Broadband Wireline and Wireless Access, OSS and BSS systems, Enterprise Networking, Security, Observability etc. She has a clear understanding of technology concepts and an end-end view of the complete telecom and Enterprise Infrastructure ecosystems. Over the years, she has successfully led the introduction of new technologies, evolved new ways of working and has led major transformations. Her driving principles are Excellence, Ownership and Execution and People Leadership is something that she immensely enjoys. Following the career successes of the people she has mentored over the years, gives her the greatest satisfaction and feeling of accomplishment. Chakraba",
     photo: speaker039,
   },
   {
@@ -1627,7 +1632,7 @@ export const eventSpeakers = [
     company: "LTImindtree",
     role: "Global DPO",
     bio: "",
-    photo: speaker,
+    photo: speaker0103,
   },
   {
     id: "407",
@@ -1635,7 +1640,7 @@ export const eventSpeakers = [
     company: "Honeywell",
     role: "AI leader and Fellow",
     bio: "",
-    photo: speaker,
+    photo: speaker0106,
   },
   {
     id: "408",
@@ -1643,16 +1648,15 @@ export const eventSpeakers = [
     company: "AU-KBC, Anna University",
     role: "Program Director",
     bio: "",
-    photo: speaker,
+    photo: speaker0104,
   },
-
   {
     id: "409",
     name: "Senthil Nathan",
     company: "Ailaysa Technologies",
     role: "CEO",
     bio: "",
-    photo: speaker,
+    photo: speaker0107,
   },
   {
     id: "410",
@@ -1676,7 +1680,7 @@ export const eventSpeakers = [
     company: "McKinsey & Company",
     role: "Partner",
     bio: "",
-    photo: speaker,
+    photo: speaker0105,
   },
   {
     id: "413",
