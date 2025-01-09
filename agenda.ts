@@ -633,7 +633,7 @@ export const timing: Timing = {
       {
         id: "8372",
         timing: ["03:45 PM", "04:00 PM"],
-        title: "Startuo Oppurtunities Defense and Space Tech Ecosystem",
+        title: "Startup Oppurtunities Defense and Space Tech Ecosystem",
         tag: ["AI"],
         duration: 15,
         speakers: ["24"],
