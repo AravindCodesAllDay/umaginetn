@@ -1698,4 +1698,12 @@ export const eventSpeakers = [
     bio: "",
     photo: speaker,
   },
+  {
+    id: "415",
+    name: "Mr. Abdul Qayyum",
+    company: "State Bank of India",
+    role: "Manager -  Compliance & Risk",
+    bio: "Abdul Qayyum,  Manager Compliance & Risk, Regional Business Office Chennai Central, State Bank of India. Holding a PG diploma in business management,  I have an industry experience of 17 years, ranging from Corporate World to Banking Industry. I have worked in International Business division, business banking, retail segment products and now taking care of Compliance and Risk areas at SBI. The association with SBI is for 11 years now.",
+    photo: speaker,
+  },
 ];

@@ -458,18 +458,20 @@ export const timing: Timing = {
       {
         id: "58",
         timing: ["10:00 AM", "10:45 AM"],
-        title: "Hyperlocal Marketplaces - Future of Economy",
+        title:
+          "Cities, Sub-urbs & Satellite Towns as Engines of Growth: How Technology is Enabling & Accelerating the Economies",
         tag: [""],
-        duration: 30,
+        duration: 45,
         speakers: ["92", "117", "88", "18", "410"],
       },
       {
         id: "404",
-        timing: ["10:45 AM", "11:25 AM"],
-        title: "Award Function",
+        timing: ["11:00 AM", "11:20 AM"],
+        title:
+          "Cybersecurity Challenges, Innovations, and Talent Needs in Banking",
         tag: [],
-        duration: 40,
-        speakers: [],
+        duration: 20,
+        speakers: ["415"],
       },
       {
         id: "51",
