@@ -617,7 +617,7 @@ export const timing: Timing = {
       {
         id: "65",
         timing: ["03:05 PM", "03:40 PM"],
-        title: "Adoptions of AI and impact in consulting",
+        title: "Lessons on Unlocking AI Success",
         tag: ["AI"],
         duration: 35,
         speakers: ["56", "414"],
